@@ -12,7 +12,7 @@ Extremely Long-Horizon Agentic Tasks Requiring Active Acting and Inductive Reaso
 ### 📊 Benchmark Stats
 
 We provide two versions of datasets for each environment:
-- **Lite**: 30 samples per environment
+- **Lite**: 30 samples per environment (Recommended)
 - **Pro**: 200 samples per environment
 
 | Env | # Samples (Lite) | # Samples (Pro) | Max Turns |
