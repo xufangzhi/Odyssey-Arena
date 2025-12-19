@@ -84,7 +84,7 @@ bash run_odyssey_arena.sh
 Odyssey-Arena is a benchmark to evaluate the advanced capbility of agent bases. The tasks included cannot be used in any part of LLM training.
 
 ## Citation
-If you find it helpful, please kindly cite our paper as well as the inference-time decoding algorithm $\phi$-Decoding:
+If you find it helpful, please kindly cite our paper:
 
 ```
 @article{xu2025odyssey,
