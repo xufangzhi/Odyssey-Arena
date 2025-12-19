@@ -2,9 +2,9 @@
 Extremely Long-Horizon Agentic Tasks Requiring Active Acting and Inductive Reasoning
 
 
-## How to Run
+## 🚀 How to Run
 
-### 🧰 Environment Setup
+### Environment Setup
 
 This repo assumes you run inference with **vLLM**.
 
@@ -16,7 +16,7 @@ conda activate odyssey-arena
 pip install "vllm>=0.8.5"
 ```
 
-### 🚀 Run a Single Environment
+### Run a Single Environment
 
 Use the corresponding `infer_*.py` under each `*Env/` directory:
 
@@ -27,7 +27,7 @@ python xxxEnv/infer_xxx.py \
   --n_gpus 8
 ```
 
-### 🧪 `infer_*.py` vs `infer_*_with_rules.py`
+**`infer_*.py` vs `infer_*_with_rules.py`**
 
 - **`infer_*.py`**: main inference script. The agent must solve the environment by **inductive reasoning** from interaction history.
 - **`infer_*_with_rules.py`**: comparison setting. The environment rules are **given explicitly**, so the agent can do **deductive reasoning**. This is typically easier.
