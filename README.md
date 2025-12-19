@@ -9,6 +9,20 @@ Extremely Long-Horizon Agentic Tasks Requiring Active Acting and Inductive Reaso
 - **Energy Grid (EnergyEnv)**: schedule generation/storage each day to meet energy demand and daily budget while maintaining grid stability and reducing carbon over a long horizon.
 - **Computer-using / Repo Setup (RepoEnv)**: act like a developer to fix a broken Python repo by running terminal commands (e.g., pip install/uninstall, run scripts) until `python run.py` succeeds.
 
+### 📊 Benchmark Stats
+
+We provide two versions of datasets for each environment:
+- **Lite**: 30 samples per environment
+- **Pro**: 200 samples per environment
+
+| Env | # Samples (Lite) | # Samples (Pro) | Max Turns |
+|---|---:|---:|---:|
+| TurnOnLights (`LightEnv`) | 30 | 200 | 200 |
+| AI Trading (`TradeEnv`) | 30 | 200 | 120 |
+| Energy Grid (`EnergyEnv`) | 30 | 200 | 120 |
+| Computer-using / Repo Setup (`RepoEnv`) | 30 | 200 | 120 |
+| **Odyssey-Arena (Total)** | **120** | **800** | **120-200** |
+
 ## 🚀 How to Run
 
 ### Environment Setup
