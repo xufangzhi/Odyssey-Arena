@@ -1,0 +1,4589 @@
+{
+  "num_days": 500,
+  "stocks": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "variables": [
+    "F0",
+    "F1",
+    "F2",
+    "F3"
+  ],
+  "dependency_matrix": [
+    [
+      0.5488720116261672,
+      0.7110174925038641,
+      -1.768404294429227,
+      0.9632063983189949
+    ],
+    [
+      -1.3235832464559085,
+      -1.3599631089151987,
+      -1.462790318746725,
+      0.5465431507814287
+    ],
+    [
+      1.4712372665808362,
+      -1.5532142812872871,
+      -0.1952109449685937,
+      -0.47078252637949114
+    ],
+    [
+      0.7853261640195888,
+      -0.9909678198802713,
+      -1.2040117518647686,
+      1.2099987481504313
+    ],
+    [
+      -0.09763449793005052,
+      -0.727332738305464,
+      0.5479550420048362,
+      1.049852599642392
+    ],
+    [
+      1.3952626999382602,
+      0.05514150241491844,
+      -1.1461557034710526,
+      1.7338794978450125
+    ],
+    [
+      1.4287795243968555,
+      1.624065720486098,
+      -0.7661779776417601,
+      1.3266536467373993
+    ],
+    [
+      0.76305272791207,
+      1.1618461000553808,
+      1.5739004179537484,
+      -0.8183209027919932
+    ]
+  ],
+  "initial_prices": [
+    79.07998869245135,
+    17.607941554952582,
+    79.31062896358169,
+    18.757331124565052,
+    13.634671316954503,
+    55.37591275937838,
+    79.9714250198913,
+    11.104734120868363
+  ],
+  "initial_variables": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_cash": 50000,
+  "price_noise_scale": 0.0,
+  "timeline": {
+    "day_1": {
+      "variable_changes": [
+        0.0244,
+        0.0678,
+        -0.0586,
+        -0.0909
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.07) | F2 decreased significantly (-0.06) | F3 decreased significantly (-0.09)"
+    },
+    "day_2": {
+      "variable_changes": [
+        -0.1992,
+        0.0972,
+        0.0017,
+        0.0206
+      ],
+      "news_text": "F0 decreased significantly (-0.20) | F1 increased significantly (+0.10) | F2 stable (0.00) | F3 rose slightly (+0.02)"
+    },
+    "day_3": {
+      "variable_changes": [
+        -0.0784,
+        0.1226,
+        0.0943,
+        -0.0122
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 increased significantly (+0.12) | F2 increased significantly (+0.09) | F3 dropped slightly (-0.01)"
+    },
+    "day_4": {
+      "variable_changes": [
+        -0.0556,
+        -0.0357,
+        -0.0799,
+        0.0027
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.08) | F3 stable (0.00)"
+    },
+    "day_5": {
+      "variable_changes": [
+        -0.0616,
+        0.0586,
+        -0.0359,
+        -0.0354
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.04)"
+    },
+    "day_6": {
+      "variable_changes": [
+        0.1537,
+        -0.0726,
+        -0.1568,
+        0.0366
+      ],
+      "news_text": "F0 increased significantly (+0.15) | F1 decreased significantly (-0.07) | F2 decreased significantly (-0.16) | F3 rose slightly (+0.04)"
+    },
+    "day_7": {
+      "variable_changes": [
+        -0.2078,
+        0.0264,
+        0.0982,
+        0.007
+      ],
+      "news_text": "F0 decreased significantly (-0.21) | F1 rose slightly (+0.03) | F2 increased significantly (+0.10) | F3 stable (0.01)"
+    },
+    "day_8": {
+      "variable_changes": [
+        0.0009,
+        -0.2051,
+        0.0555,
+        0.0396
+      ],
+      "news_text": "F0 stable (0.00) | F1 decreased significantly (-0.21) | F2 increased significantly (+0.06) | F3 rose slightly (+0.04)"
+    },
+    "day_9": {
+      "variable_changes": [
+        -0.1172,
+        0.1913,
+        -0.1224,
+        -0.1679
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 increased significantly (+0.19) | F2 decreased significantly (-0.12) | F3 decreased significantly (-0.17)"
+    },
+    "day_10": {
+      "variable_changes": [
+        -0.1811,
+        0.0026,
+        0.0338,
+        0.0441
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 stable (0.00) | F2 rose slightly (+0.03) | F3 rose slightly (+0.04)"
+    },
+    "day_11": {
+      "variable_changes": [
+        -0.0337,
+        -0.0813,
+        0.0843,
+        -0.0898
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.08) | F3 decreased significantly (-0.09)"
+    },
+    "day_12": {
+      "variable_changes": [
+        -0.121,
+        0.1401,
+        0.0178,
+        0.0471
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 increased significantly (+0.14) | F2 rose slightly (+0.02) | F3 rose slightly (+0.05)"
+    },
+    "day_13": {
+      "variable_changes": [
+        0.0626,
+        -0.0572,
+        -0.0533,
+        0.0641
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.05) | F3 increased significantly (+0.06)"
+    },
+    "day_14": {
+      "variable_changes": [
+        -0.0617,
+        0.0336,
+        -0.0089,
+        -0.1194
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 rose slightly (+0.03) | F2 stable (-0.01) | F3 decreased significantly (-0.12)"
+    },
+    "day_15": {
+      "variable_changes": [
+        0.0966,
+        -0.1289,
+        0.0233,
+        0.0067
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 decreased significantly (-0.13) | F2 rose slightly (+0.02) | F3 stable (0.01)"
+    },
+    "day_16": {
+      "variable_changes": [
+        0.1267,
+        -0.112,
+        -0.0543,
+        -0.01
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.05) | F3 dropped slightly (-0.01)"
+    },
+    "day_17": {
+      "variable_changes": [
+        0.0181,
+        0.0868,
+        0.0311,
+        0.0025
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.09) | F2 rose slightly (+0.03) | F3 stable (0.00)"
+    },
+    "day_18": {
+      "variable_changes": [
+        0.1028,
+        0.2096,
+        -0.1356,
+        -0.0006
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 increased significantly (+0.21) | F2 decreased significantly (-0.14) | F3 stable (-0.00)"
+    },
+    "day_19": {
+      "variable_changes": [
+        0.076,
+        0.0086,
+        0.1435,
+        -0.0334
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 stable (0.01) | F2 increased significantly (+0.14) | F3 dropped slightly (-0.03)"
+    },
+    "day_20": {
+      "variable_changes": [
+        -0.1014,
+        0.0871,
+        -0.2773,
+        -0.0476
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 increased significantly (+0.09) | F2 decreased significantly (-0.28) | F3 dropped slightly (-0.05)"
+    },
+    "day_21": {
+      "variable_changes": [
+        0.2366,
+        0.0026,
+        0.0358,
+        -0.0952
+      ],
+      "news_text": "F0 increased significantly (+0.24) | F1 stable (0.00) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.10)"
+    },
+    "day_22": {
+      "variable_changes": [
+        -0.0023,
+        -0.0142,
+        0.1858,
+        -0.101
+      ],
+      "news_text": "F0 stable (-0.00) | F1 dropped slightly (-0.01) | F2 increased significantly (+0.19) | F3 decreased significantly (-0.10)"
+    },
+    "day_23": {
+      "variable_changes": [
+        -0.2762,
+        0.0407,
+        0.155,
+        -0.0689
+      ],
+      "news_text": "F0 decreased significantly (-0.28) | F1 rose slightly (+0.04) | F2 increased significantly (+0.16) | F3 decreased significantly (-0.07)"
+    },
+    "day_24": {
+      "variable_changes": [
+        -0.1824,
+        -0.1073,
+        0.0434,
+        -0.0562
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 decreased significantly (-0.11) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.06)"
+    },
+    "day_25": {
+      "variable_changes": [
+        0.0042,
+        -0.2358,
+        -0.052,
+        0.0788
+      ],
+      "news_text": "F0 stable (0.00) | F1 decreased significantly (-0.24) | F2 decreased significantly (-0.05) | F3 increased significantly (+0.08)"
+    },
+    "day_26": {
+      "variable_changes": [
+        -0.0265,
+        -0.1024,
+        0.1052,
+        0.0987
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.10) | F2 increased significantly (+0.11) | F3 increased significantly (+0.10)"
+    },
+    "day_27": {
+      "variable_changes": [
+        -0.0465,
+        -0.0742,
+        0.1278,
+        -0.055
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.05)"
+    },
+    "day_28": {
+      "variable_changes": [
+        -0.0163,
+        0.1801,
+        0.0187,
+        -0.0495
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.18) | F2 rose slightly (+0.02) | F3 dropped slightly (-0.05)"
+    },
+    "day_29": {
+      "variable_changes": [
+        -0.1976,
+        0.0035,
+        -0.0087,
+        -0.0624
+      ],
+      "news_text": "F0 decreased significantly (-0.20) | F1 stable (0.00) | F2 stable (-0.01) | F3 decreased significantly (-0.06)"
+    },
+    "day_30": {
+      "variable_changes": [
+        0.0926,
+        -0.1291,
+        -0.1583,
+        -0.0788
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 decreased significantly (-0.13) | F2 decreased significantly (-0.16) | F3 decreased significantly (-0.08)"
+    },
+    "day_31": {
+      "variable_changes": [
+        -0.0054,
+        -0.153,
+        -0.1209,
+        -0.0878
+      ],
+      "news_text": "F0 stable (-0.01) | F1 decreased significantly (-0.15) | F2 decreased significantly (-0.12) | F3 decreased significantly (-0.09)"
+    },
+    "day_32": {
+      "variable_changes": [
+        -0.0091,
+        -0.077,
+        0.0906,
+        -0.2288
+      ],
+      "news_text": "F0 stable (-0.01) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.09) | F3 decreased significantly (-0.23)"
+    },
+    "day_33": {
+      "variable_changes": [
+        0.0321,
+        -0.0683,
+        0.0373,
+        0.1883
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.07) | F2 rose slightly (+0.04) | F3 increased significantly (+0.19)"
+    },
+    "day_34": {
+      "variable_changes": [
+        -0.0163,
+        0.0103,
+        0.0742,
+        -0.1421
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.01) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.14)"
+    },
+    "day_35": {
+      "variable_changes": [
+        0.0568,
+        0.0722,
+        -0.0229,
+        0.0561
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.06)"
+    },
+    "day_36": {
+      "variable_changes": [
+        0.0037,
+        -0.0855,
+        -0.1406,
+        0.089
+      ],
+      "news_text": "F0 stable (0.00) | F1 decreased significantly (-0.09) | F2 decreased significantly (-0.14) | F3 increased significantly (+0.09)"
+    },
+    "day_37": {
+      "variable_changes": [
+        0.169,
+        -0.0877,
+        0.0278,
+        -0.1303
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 decreased significantly (-0.09) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.13)"
+    },
+    "day_38": {
+      "variable_changes": [
+        -0.0559,
+        -0.0584,
+        -0.1227,
+        -0.0161
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.12) | F3 dropped slightly (-0.02)"
+    },
+    "day_39": {
+      "variable_changes": [
+        0.0906,
+        0.0476,
+        -0.0601,
+        0.134
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 rose slightly (+0.05) | F2 decreased significantly (-0.06) | F3 increased significantly (+0.13)"
+    },
+    "day_40": {
+      "variable_changes": [
+        0.0137,
+        0.1722,
+        -0.1386,
+        0.294
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 increased significantly (+0.17) | F2 decreased significantly (-0.14) | F3 increased significantly (+0.29)"
+    },
+    "day_41": {
+      "variable_changes": [
+        -0.0254,
+        -0.1259,
+        -0.1142,
+        0.0858
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.13) | F2 decreased significantly (-0.11) | F3 increased significantly (+0.09)"
+    },
+    "day_42": {
+      "variable_changes": [
+        0.0831,
+        0.0738,
+        0.0535,
+        -0.12
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 increased significantly (+0.07) | F2 increased significantly (+0.05) | F3 decreased significantly (-0.12)"
+    },
+    "day_43": {
+      "variable_changes": [
+        -0.0216,
+        -0.2385,
+        -0.0946,
+        0.06
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 decreased significantly (-0.24) | F2 decreased significantly (-0.09) | F3 increased significantly (+0.06)"
+    },
+    "day_44": {
+      "variable_changes": [
+        -0.1947,
+        0.2308,
+        0.1201,
+        -0.1209
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 increased significantly (+0.23) | F2 increased significantly (+0.12) | F3 decreased significantly (-0.12)"
+    },
+    "day_45": {
+      "variable_changes": [
+        0.0663,
+        0.0496,
+        -0.0198,
+        0.0531
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 rose slightly (+0.05) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.05)"
+    },
+    "day_46": {
+      "variable_changes": [
+        -0.0324,
+        -0.0075,
+        0.0495,
+        0.043
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 stable (-0.01) | F2 rose slightly (+0.05) | F3 rose slightly (+0.04)"
+    },
+    "day_47": {
+      "variable_changes": [
+        0.0291,
+        0.0313,
+        0.0938,
+        0.0763
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 rose slightly (+0.03) | F2 increased significantly (+0.09) | F3 increased significantly (+0.08)"
+    },
+    "day_48": {
+      "variable_changes": [
+        -0.1206,
+        -0.0774,
+        0.1448,
+        0.1551
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.14) | F3 increased significantly (+0.16)"
+    },
+    "day_49": {
+      "variable_changes": [
+        0.0548,
+        -0.0282,
+        0.0815,
+        0.0678
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.08) | F3 increased significantly (+0.07)"
+    },
+    "day_50": {
+      "variable_changes": [
+        -0.155,
+        0.0066,
+        -0.1402,
+        -0.046
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 stable (0.01) | F2 decreased significantly (-0.14) | F3 dropped slightly (-0.05)"
+    },
+    "day_51": {
+      "variable_changes": [
+        0.0032,
+        0.172,
+        -0.2116,
+        -0.0356
+      ],
+      "news_text": "F0 stable (0.00) | F1 increased significantly (+0.17) | F2 decreased significantly (-0.21) | F3 dropped slightly (-0.04)"
+    },
+    "day_52": {
+      "variable_changes": [
+        0.0682,
+        0.0667,
+        0.0851,
+        -0.0994
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 increased significantly (+0.07) | F2 increased significantly (+0.09) | F3 decreased significantly (-0.10)"
+    },
+    "day_53": {
+      "variable_changes": [
+        -0.0129,
+        -0.0463,
+        0.131,
+        -0.0138
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 dropped slightly (-0.05) | F2 increased significantly (+0.13) | F3 dropped slightly (-0.01)"
+    },
+    "day_54": {
+      "variable_changes": [
+        0.0018,
+        0.0191,
+        -0.1309,
+        0.0518
+      ],
+      "news_text": "F0 stable (0.00) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.13) | F3 increased significantly (+0.05)"
+    },
+    "day_55": {
+      "variable_changes": [
+        -0.1105,
+        0.0183,
+        -0.0725,
+        0.1198
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.07) | F3 increased significantly (+0.12)"
+    },
+    "day_56": {
+      "variable_changes": [
+        0.0038,
+        0.1931,
+        -0.2234,
+        0.1372
+      ],
+      "news_text": "F0 stable (0.00) | F1 increased significantly (+0.19) | F2 decreased significantly (-0.22) | F3 increased significantly (+0.14)"
+    },
+    "day_57": {
+      "variable_changes": [
+        0.086,
+        0.0293,
+        0.2207,
+        -0.1428
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 rose slightly (+0.03) | F2 increased significantly (+0.22) | F3 decreased significantly (-0.14)"
+    },
+    "day_58": {
+      "variable_changes": [
+        0.0213,
+        0.1247,
+        0.0607,
+        -0.0379
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.12) | F2 increased significantly (+0.06) | F3 dropped slightly (-0.04)"
+    },
+    "day_59": {
+      "variable_changes": [
+        0.0648,
+        -0.0415,
+        -0.0341,
+        -0.0662
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 dropped slightly (-0.04) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.07)"
+    },
+    "day_60": {
+      "variable_changes": [
+        0.1054,
+        0.0312,
+        0.2516,
+        0.0847
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 rose slightly (+0.03) | F2 increased significantly (+0.25) | F3 increased significantly (+0.08)"
+    },
+    "day_61": {
+      "variable_changes": [
+        -0.1483,
+        0.0803,
+        -0.1089,
+        -0.0276
+      ],
+      "news_text": "F0 decreased significantly (-0.15) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.11) | F3 dropped slightly (-0.03)"
+    },
+    "day_62": {
+      "variable_changes": [
+        0.0141,
+        -0.109,
+        -0.0505,
+        -0.0674
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.05) | F3 decreased significantly (-0.07)"
+    },
+    "day_63": {
+      "variable_changes": [
+        0.0141,
+        -0.0074,
+        -0.0104,
+        0.1706
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 stable (-0.01) | F2 dropped slightly (-0.01) | F3 increased significantly (+0.17)"
+    },
+    "day_64": {
+      "variable_changes": [
+        0.0542,
+        0.0433,
+        0.1097,
+        0.1862
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 rose slightly (+0.04) | F2 increased significantly (+0.11) | F3 increased significantly (+0.19)"
+    },
+    "day_65": {
+      "variable_changes": [
+        0.1398,
+        -0.1055,
+        0.0528,
+        0.0774
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 decreased significantly (-0.11) | F2 increased significantly (+0.05) | F3 increased significantly (+0.08)"
+    },
+    "day_66": {
+      "variable_changes": [
+        0.0964,
+        -0.0141,
+        0.0072,
+        -0.0886
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 dropped slightly (-0.01) | F2 stable (0.01) | F3 decreased significantly (-0.09)"
+    },
+    "day_67": {
+      "variable_changes": [
+        -0.0369,
+        -0.1166,
+        0.1274,
+        -0.0519
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.12) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.05)"
+    },
+    "day_68": {
+      "variable_changes": [
+        -0.0933,
+        0.0295,
+        0.0107,
+        -0.0686
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 rose slightly (+0.03) | F2 rose slightly (+0.01) | F3 decreased significantly (-0.07)"
+    },
+    "day_69": {
+      "variable_changes": [
+        0.0377,
+        -0.0626,
+        0.051,
+        -0.0027
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.06) | F2 increased significantly (+0.05) | F3 stable (-0.00)"
+    },
+    "day_70": {
+      "variable_changes": [
+        0.0217,
+        -0.0381,
+        -0.0669,
+        0.0255
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.07) | F3 rose slightly (+0.03)"
+    },
+    "day_71": {
+      "variable_changes": [
+        -0.1571,
+        0.1385,
+        -0.0456,
+        0.2077
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.14) | F2 dropped slightly (-0.05) | F3 increased significantly (+0.21)"
+    },
+    "day_72": {
+      "variable_changes": [
+        0.0672,
+        -0.0093,
+        -0.0603,
+        0.0519
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 stable (-0.01) | F2 decreased significantly (-0.06) | F3 increased significantly (+0.05)"
+    },
+    "day_73": {
+      "variable_changes": [
+        0.0463,
+        0.0431,
+        0.084,
+        0.0121
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 rose slightly (+0.04) | F2 increased significantly (+0.08) | F3 rose slightly (+0.01)"
+    },
+    "day_74": {
+      "variable_changes": [
+        0.1145,
+        -0.0767,
+        -0.0203,
+        0.062
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.08) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.06)"
+    },
+    "day_75": {
+      "variable_changes": [
+        -0.078,
+        0.0043,
+        0.1535,
+        0.0106
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 stable (0.00) | F2 increased significantly (+0.15) | F3 rose slightly (+0.01)"
+    },
+    "day_76": {
+      "variable_changes": [
+        -0.047,
+        0.1129,
+        -0.1136,
+        -0.0332
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.11) | F2 decreased significantly (-0.11) | F3 dropped slightly (-0.03)"
+    },
+    "day_77": {
+      "variable_changes": [
+        0.1066,
+        -0.077,
+        0.0258,
+        -0.007
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.08) | F2 rose slightly (+0.03) | F3 stable (-0.01)"
+    },
+    "day_78": {
+      "variable_changes": [
+        0.1567,
+        -0.1422,
+        -0.0541,
+        -0.0325
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 decreased significantly (-0.14) | F2 decreased significantly (-0.05) | F3 dropped slightly (-0.03)"
+    },
+    "day_79": {
+      "variable_changes": [
+        0.0374,
+        0.0552,
+        0.0423,
+        0.1419
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 increased significantly (+0.06) | F2 rose slightly (+0.04) | F3 increased significantly (+0.14)"
+    },
+    "day_80": {
+      "variable_changes": [
+        0.0672,
+        -0.1281,
+        -0.1445,
+        -0.0537
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 decreased significantly (-0.13) | F2 decreased significantly (-0.14) | F3 decreased significantly (-0.05)"
+    },
+    "day_81": {
+      "variable_changes": [
+        -0.0526,
+        -0.0437,
+        0.1049,
+        -0.0631
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 dropped slightly (-0.04) | F2 increased significantly (+0.10) | F3 decreased significantly (-0.06)"
+    },
+    "day_82": {
+      "variable_changes": [
+        0.1109,
+        0.1149,
+        0.0031,
+        -0.0521
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 increased significantly (+0.11) | F2 stable (0.00) | F3 decreased significantly (-0.05)"
+    },
+    "day_83": {
+      "variable_changes": [
+        0.1288,
+        -0.0846,
+        0.0479,
+        0.0273
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 decreased significantly (-0.08) | F2 rose slightly (+0.05) | F3 rose slightly (+0.03)"
+    },
+    "day_84": {
+      "variable_changes": [
+        0.1297,
+        0.0359,
+        0.0021,
+        0.1055
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 rose slightly (+0.04) | F2 stable (0.00) | F3 increased significantly (+0.11)"
+    },
+    "day_85": {
+      "variable_changes": [
+        -0.038,
+        0.0562,
+        0.0133,
+        0.0035
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 increased significantly (+0.06) | F2 rose slightly (+0.01) | F3 stable (0.00)"
+    },
+    "day_86": {
+      "variable_changes": [
+        -0.1482,
+        -0.0004,
+        -0.1011,
+        0.053
+      ],
+      "news_text": "F0 decreased significantly (-0.15) | F1 stable (-0.00) | F2 decreased significantly (-0.10) | F3 increased significantly (+0.05)"
+    },
+    "day_87": {
+      "variable_changes": [
+        0.237,
+        -0.0226,
+        0.0916,
+        0.1009
+      ],
+      "news_text": "F0 increased significantly (+0.24) | F1 dropped slightly (-0.02) | F2 increased significantly (+0.09) | F3 increased significantly (+0.10)"
+    },
+    "day_88": {
+      "variable_changes": [
+        -0.1152,
+        0.0708,
+        -0.0315,
+        -0.044
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.03) | F3 dropped slightly (-0.04)"
+    },
+    "day_89": {
+      "variable_changes": [
+        0.082,
+        -0.0556,
+        -0.0509,
+        0.0758
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.05) | F3 increased significantly (+0.08)"
+    },
+    "day_90": {
+      "variable_changes": [
+        0.129,
+        0.0067,
+        0.0667,
+        -0.1418
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 stable (0.01) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.14)"
+    },
+    "day_91": {
+      "variable_changes": [
+        -0.0102,
+        0.0447,
+        -0.0843,
+        0.0645
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.08) | F3 increased significantly (+0.06)"
+    },
+    "day_92": {
+      "variable_changes": [
+        0.0282,
+        0.0286,
+        0.1185,
+        0.1266
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 rose slightly (+0.03) | F2 increased significantly (+0.12) | F3 increased significantly (+0.13)"
+    },
+    "day_93": {
+      "variable_changes": [
+        -0.1215,
+        -0.0655,
+        0.0538,
+        -0.0301
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.05) | F3 dropped slightly (-0.03)"
+    },
+    "day_94": {
+      "variable_changes": [
+        0.199,
+        0.1106,
+        -0.0821,
+        -0.0756
+      ],
+      "news_text": "F0 increased significantly (+0.20) | F1 increased significantly (+0.11) | F2 decreased significantly (-0.08) | F3 decreased significantly (-0.08)"
+    },
+    "day_95": {
+      "variable_changes": [
+        -0.1265,
+        0.0371,
+        -0.0605,
+        -0.0676
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.06) | F3 decreased significantly (-0.07)"
+    },
+    "day_96": {
+      "variable_changes": [
+        -0.1265,
+        0.089,
+        -0.0747,
+        -0.0906
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 increased significantly (+0.09) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.09)"
+    },
+    "day_97": {
+      "variable_changes": [
+        -0.1886,
+        0.0405,
+        0.023,
+        0.0731
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 rose slightly (+0.04) | F2 rose slightly (+0.02) | F3 increased significantly (+0.07)"
+    },
+    "day_98": {
+      "variable_changes": [
+        0.1436,
+        0.0207,
+        -0.0344,
+        -0.1604
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.16)"
+    },
+    "day_99": {
+      "variable_changes": [
+        0.0108,
+        0.0353,
+        0.0257,
+        -0.1947
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 rose slightly (+0.04) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.19)"
+    },
+    "day_100": {
+      "variable_changes": [
+        0.1235,
+        0.0621,
+        -0.039,
+        -0.0284
+      ],
+      "news_text": "F0 increased significantly (+0.12) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.03)"
+    },
+    "day_101": {
+      "variable_changes": [
+        -0.192,
+        0.0323,
+        -0.0343,
+        -0.113
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 rose slightly (+0.03) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.11)"
+    },
+    "day_102": {
+      "variable_changes": [
+        0.1974,
+        0.1545,
+        0.0724,
+        -0.0021
+      ],
+      "news_text": "F0 increased significantly (+0.20) | F1 increased significantly (+0.15) | F2 increased significantly (+0.07) | F3 stable (-0.00)"
+    },
+    "day_103": {
+      "variable_changes": [
+        -0.1241,
+        -0.0019,
+        0.047,
+        -0.0108
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 stable (-0.00) | F2 rose slightly (+0.05) | F3 dropped slightly (-0.01)"
+    },
+    "day_104": {
+      "variable_changes": [
+        -0.0035,
+        0.0187,
+        -0.1144,
+        0.0821
+      ],
+      "news_text": "F0 stable (-0.00) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.11) | F3 increased significantly (+0.08)"
+    },
+    "day_105": {
+      "variable_changes": [
+        0.1007,
+        -0.043,
+        -0.0694,
+        0.2121
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.07) | F3 increased significantly (+0.21)"
+    },
+    "day_106": {
+      "variable_changes": [
+        0.1141,
+        -0.232,
+        -0.0102,
+        -0.102
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.23) | F2 dropped slightly (-0.01) | F3 decreased significantly (-0.10)"
+    },
+    "day_107": {
+      "variable_changes": [
+        -0.0912,
+        -0.069,
+        0.0043,
+        -0.0132
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 decreased significantly (-0.07) | F2 stable (0.00) | F3 dropped slightly (-0.01)"
+    },
+    "day_108": {
+      "variable_changes": [
+        -0.1295,
+        -0.1086,
+        -0.206,
+        -0.009
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.21) | F3 stable (-0.01)"
+    },
+    "day_109": {
+      "variable_changes": [
+        0.0268,
+        0.0861,
+        0.0981,
+        0.0098
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.09) | F2 increased significantly (+0.10) | F3 stable (0.01)"
+    },
+    "day_110": {
+      "variable_changes": [
+        -0.0404,
+        0.214,
+        -0.0927,
+        -0.1357
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 increased significantly (+0.21) | F2 decreased significantly (-0.09) | F3 decreased significantly (-0.14)"
+    },
+    "day_111": {
+      "variable_changes": [
+        -0.0462,
+        0.0195,
+        0.135,
+        -0.0473
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 rose slightly (+0.02) | F2 increased significantly (+0.14) | F3 dropped slightly (-0.05)"
+    },
+    "day_112": {
+      "variable_changes": [
+        -0.1621,
+        0.0733,
+        -0.0452,
+        -0.1069
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.05) | F3 decreased significantly (-0.11)"
+    },
+    "day_113": {
+      "variable_changes": [
+        -0.0913,
+        0.0131,
+        -0.1768,
+        0.1474
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 rose slightly (+0.01) | F2 decreased significantly (-0.18) | F3 increased significantly (+0.15)"
+    },
+    "day_114": {
+      "variable_changes": [
+        -0.017,
+        0.0044,
+        0.1046,
+        -0.0751
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 stable (0.00) | F2 increased significantly (+0.10) | F3 decreased significantly (-0.08)"
+    },
+    "day_115": {
+      "variable_changes": [
+        0.0059,
+        -0.0089,
+        0.0477,
+        0.2442
+      ],
+      "news_text": "F0 stable (0.01) | F1 stable (-0.01) | F2 rose slightly (+0.05) | F3 increased significantly (+0.24)"
+    },
+    "day_116": {
+      "variable_changes": [
+        -0.1102,
+        -0.0072,
+        0.2113,
+        -0.0903
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 stable (-0.01) | F2 increased significantly (+0.21) | F3 decreased significantly (-0.09)"
+    },
+    "day_117": {
+      "variable_changes": [
+        0.1612,
+        0.0077,
+        0.1028,
+        0.056
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 stable (0.01) | F2 increased significantly (+0.10) | F3 increased significantly (+0.06)"
+    },
+    "day_118": {
+      "variable_changes": [
+        0.0317,
+        -0.0892,
+        -0.0149,
+        0.0684
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.09) | F2 dropped slightly (-0.01) | F3 increased significantly (+0.07)"
+    },
+    "day_119": {
+      "variable_changes": [
+        -0.0386,
+        -0.1087,
+        -0.0982,
+        0.1413
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.10) | F3 increased significantly (+0.14)"
+    },
+    "day_120": {
+      "variable_changes": [
+        0.1596,
+        -0.0719,
+        -0.0022,
+        0.1241
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 decreased significantly (-0.07) | F2 stable (-0.00) | F3 increased significantly (+0.12)"
+    },
+    "day_121": {
+      "variable_changes": [
+        0.0292,
+        0.0066,
+        0.0617,
+        -0.1109
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 stable (0.01) | F2 increased significantly (+0.06) | F3 decreased significantly (-0.11)"
+    },
+    "day_122": {
+      "variable_changes": [
+        -0.0685,
+        0.0765,
+        0.0201,
+        0.0462
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 increased significantly (+0.08) | F2 rose slightly (+0.02) | F3 rose slightly (+0.05)"
+    },
+    "day_123": {
+      "variable_changes": [
+        0.0091,
+        -0.1291,
+        0.0424,
+        0.1299
+      ],
+      "news_text": "F0 stable (0.01) | F1 decreased significantly (-0.13) | F2 rose slightly (+0.04) | F3 increased significantly (+0.13)"
+    },
+    "day_124": {
+      "variable_changes": [
+        0.0517,
+        0.0733,
+        -0.0938,
+        -0.0249
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 increased significantly (+0.07) | F2 decreased significantly (-0.09) | F3 dropped slightly (-0.02)"
+    },
+    "day_125": {
+      "variable_changes": [
+        -0.0454,
+        -0.0505,
+        -0.0619,
+        0.0593
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 decreased significantly (-0.05) | F2 decreased significantly (-0.06) | F3 increased significantly (+0.06)"
+    },
+    "day_126": {
+      "variable_changes": [
+        0.0554,
+        0.0846,
+        0.1803,
+        0.0176
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.08) | F2 increased significantly (+0.18) | F3 rose slightly (+0.02)"
+    },
+    "day_127": {
+      "variable_changes": [
+        0.0469,
+        0.0182,
+        -0.1612,
+        -0.1058
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.16) | F3 decreased significantly (-0.11)"
+    },
+    "day_128": {
+      "variable_changes": [
+        0.0471,
+        -0.0437,
+        -0.0049,
+        -0.1423
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 dropped slightly (-0.04) | F2 stable (-0.00) | F3 decreased significantly (-0.14)"
+    },
+    "day_129": {
+      "variable_changes": [
+        0.0289,
+        -0.0295,
+        0.0188,
+        0.0194
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 dropped slightly (-0.03) | F2 rose slightly (+0.02) | F3 rose slightly (+0.02)"
+    },
+    "day_130": {
+      "variable_changes": [
+        -0.1623,
+        0.1104,
+        -0.1265,
+        -0.0298
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.11) | F2 decreased significantly (-0.13) | F3 dropped slightly (-0.03)"
+    },
+    "day_131": {
+      "variable_changes": [
+        -0.0461,
+        0.1034,
+        0.011,
+        0.0964
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.10) | F2 rose slightly (+0.01) | F3 increased significantly (+0.10)"
+    },
+    "day_132": {
+      "variable_changes": [
+        0.0206,
+        -0.0022,
+        -0.0804,
+        -0.0469
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 stable (-0.00) | F2 decreased significantly (-0.08) | F3 dropped slightly (-0.05)"
+    },
+    "day_133": {
+      "variable_changes": [
+        0.004,
+        0.026,
+        -0.064,
+        0.1411
+      ],
+      "news_text": "F0 stable (0.00) | F1 rose slightly (+0.03) | F2 decreased significantly (-0.06) | F3 increased significantly (+0.14)"
+    },
+    "day_134": {
+      "variable_changes": [
+        0.0305,
+        -0.1106,
+        0.149,
+        -0.1682
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.11) | F2 increased significantly (+0.15) | F3 decreased significantly (-0.17)"
+    },
+    "day_135": {
+      "variable_changes": [
+        0.0398,
+        -0.0541,
+        0.1577,
+        0.0839
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.05) | F2 increased significantly (+0.16) | F3 increased significantly (+0.08)"
+    },
+    "day_136": {
+      "variable_changes": [
+        -0.1162,
+        0.1009,
+        -0.2015,
+        0.0838
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 increased significantly (+0.10) | F2 decreased significantly (-0.20) | F3 increased significantly (+0.08)"
+    },
+    "day_137": {
+      "variable_changes": [
+        -0.0042,
+        -0.0907,
+        0.0985,
+        0.0779
+      ],
+      "news_text": "F0 stable (-0.00) | F1 decreased significantly (-0.09) | F2 increased significantly (+0.10) | F3 increased significantly (+0.08)"
+    },
+    "day_138": {
+      "variable_changes": [
+        0.0197,
+        0.029,
+        0.0408,
+        -0.035
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.03) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.03)"
+    },
+    "day_139": {
+      "variable_changes": [
+        0.0565,
+        -0.1858,
+        -0.3378,
+        0.0468
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.19) | F2 decreased significantly (-0.34) | F3 rose slightly (+0.05)"
+    },
+    "day_140": {
+      "variable_changes": [
+        0.0392,
+        -0.0665,
+        -0.1077,
+        0.1323
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.07) | F2 decreased significantly (-0.11) | F3 increased significantly (+0.13)"
+    },
+    "day_141": {
+      "variable_changes": [
+        -0.0512,
+        -0.0602,
+        -0.0967,
+        0.0799
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.10) | F3 increased significantly (+0.08)"
+    },
+    "day_142": {
+      "variable_changes": [
+        -0.221,
+        -0.0188,
+        -0.0715,
+        -0.0144
+      ],
+      "news_text": "F0 decreased significantly (-0.22) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.07) | F3 dropped slightly (-0.01)"
+    },
+    "day_143": {
+      "variable_changes": [
+        0.0669,
+        -0.0487,
+        -0.0276,
+        -0.1869
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 dropped slightly (-0.05) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.19)"
+    },
+    "day_144": {
+      "variable_changes": [
+        -0.0548,
+        -0.1056,
+        0.0231,
+        -0.0236
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 decreased significantly (-0.11) | F2 rose slightly (+0.02) | F3 dropped slightly (-0.02)"
+    },
+    "day_145": {
+      "variable_changes": [
+        -0.0441,
+        0.0156,
+        -0.09,
+        -0.1136
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.09) | F3 decreased significantly (-0.11)"
+    },
+    "day_146": {
+      "variable_changes": [
+        -0.2592,
+        -0.0077,
+        -0.0008,
+        -0.0063
+      ],
+      "news_text": "F0 decreased significantly (-0.26) | F1 stable (-0.01) | F2 stable (-0.00) | F3 stable (-0.01)"
+    },
+    "day_147": {
+      "variable_changes": [
+        -0.0591,
+        0.1036,
+        -0.0757,
+        0.1775
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.10) | F2 decreased significantly (-0.08) | F3 increased significantly (+0.18)"
+    },
+    "day_148": {
+      "variable_changes": [
+        -0.0298,
+        -0.0834,
+        -0.0408,
+        -0.0089
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.08) | F2 dropped slightly (-0.04) | F3 stable (-0.01)"
+    },
+    "day_149": {
+      "variable_changes": [
+        0.0364,
+        0.1859,
+        0.0122,
+        0.0696
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 increased significantly (+0.19) | F2 rose slightly (+0.01) | F3 increased significantly (+0.07)"
+    },
+    "day_150": {
+      "variable_changes": [
+        0.0902,
+        0.0422,
+        0.1903,
+        -0.035
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 rose slightly (+0.04) | F2 increased significantly (+0.19) | F3 dropped slightly (-0.04)"
+    },
+    "day_151": {
+      "variable_changes": [
+        -0.0641,
+        -0.1234,
+        -0.0289,
+        -0.2119
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 decreased significantly (-0.12) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.21)"
+    },
+    "day_152": {
+      "variable_changes": [
+        0.0605,
+        -0.0715,
+        0.063,
+        0.0341
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.06) | F3 rose slightly (+0.03)"
+    },
+    "day_153": {
+      "variable_changes": [
+        -0.1217,
+        0.2083,
+        -0.0785,
+        -0.0864
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 increased significantly (+0.21) | F2 decreased significantly (-0.08) | F3 decreased significantly (-0.09)"
+    },
+    "day_154": {
+      "variable_changes": [
+        -0.0428,
+        0.0459,
+        -0.1092,
+        0.0789
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 rose slightly (+0.05) | F2 decreased significantly (-0.11) | F3 increased significantly (+0.08)"
+    },
+    "day_155": {
+      "variable_changes": [
+        0.0122,
+        -0.0199,
+        -0.1062,
+        0.0086
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.11) | F3 stable (0.01)"
+    },
+    "day_156": {
+      "variable_changes": [
+        -0.0285,
+        -0.2045,
+        0.0293,
+        -0.0955
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.20) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.10)"
+    },
+    "day_157": {
+      "variable_changes": [
+        -0.0337,
+        -0.09,
+        -0.0374,
+        -0.0483
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.09) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.05)"
+    },
+    "day_158": {
+      "variable_changes": [
+        -0.0404,
+        -0.048,
+        -0.0704,
+        0.0981
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 dropped slightly (-0.05) | F2 decreased significantly (-0.07) | F3 increased significantly (+0.10)"
+    },
+    "day_159": {
+      "variable_changes": [
+        0.0415,
+        0.0503,
+        0.1279,
+        -0.0574
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 increased significantly (+0.05) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.06)"
+    },
+    "day_160": {
+      "variable_changes": [
+        0.0399,
+        -0.0578,
+        -0.0886,
+        0.1272
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.09) | F3 increased significantly (+0.13)"
+    },
+    "day_161": {
+      "variable_changes": [
+        -0.0898,
+        0.2437,
+        0.2339,
+        -0.2199
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 increased significantly (+0.24) | F2 increased significantly (+0.23) | F3 decreased significantly (-0.22)"
+    },
+    "day_162": {
+      "variable_changes": [
+        0.0881,
+        -0.0879,
+        0.0534,
+        0.0156
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 decreased significantly (-0.09) | F2 increased significantly (+0.05) | F3 rose slightly (+0.02)"
+    },
+    "day_163": {
+      "variable_changes": [
+        -0.2571,
+        0.0078,
+        0.129,
+        0.0222
+      ],
+      "news_text": "F0 decreased significantly (-0.26) | F1 stable (0.01) | F2 increased significantly (+0.13) | F3 rose slightly (+0.02)"
+    },
+    "day_164": {
+      "variable_changes": [
+        0.1864,
+        -0.0745,
+        0.1882,
+        -0.0033
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.19) | F3 stable (-0.00)"
+    },
+    "day_165": {
+      "variable_changes": [
+        -0.1331,
+        0.0536,
+        0.1701,
+        0.0177
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 increased significantly (+0.05) | F2 increased significantly (+0.17) | F3 rose slightly (+0.02)"
+    },
+    "day_166": {
+      "variable_changes": [
+        0.022,
+        0.0104,
+        -0.219,
+        0.2031
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.01) | F2 decreased significantly (-0.22) | F3 increased significantly (+0.20)"
+    },
+    "day_167": {
+      "variable_changes": [
+        0.1903,
+        0.1499,
+        0.0431,
+        0.0102
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 increased significantly (+0.15) | F2 rose slightly (+0.04) | F3 rose slightly (+0.01)"
+    },
+    "day_168": {
+      "variable_changes": [
+        -0.0315,
+        0.1585,
+        0.0827,
+        -0.1157
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 increased significantly (+0.16) | F2 increased significantly (+0.08) | F3 decreased significantly (-0.12)"
+    },
+    "day_169": {
+      "variable_changes": [
+        -0.0463,
+        0.0356,
+        -0.0548,
+        0.0705
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.05) | F3 increased significantly (+0.07)"
+    },
+    "day_170": {
+      "variable_changes": [
+        0.2021,
+        0.2007,
+        0.0704,
+        -0.0887
+      ],
+      "news_text": "F0 increased significantly (+0.20) | F1 increased significantly (+0.20) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.09)"
+    },
+    "day_171": {
+      "variable_changes": [
+        0.0988,
+        -0.1218,
+        -0.0483,
+        -0.0678
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 decreased significantly (-0.12) | F2 dropped slightly (-0.05) | F3 decreased significantly (-0.07)"
+    },
+    "day_172": {
+      "variable_changes": [
+        -0.0222,
+        0.0334,
+        0.109,
+        0.0324
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.03) | F2 increased significantly (+0.11) | F3 rose slightly (+0.03)"
+    },
+    "day_173": {
+      "variable_changes": [
+        -0.1635,
+        0.0635,
+        0.0816,
+        0.0853
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.06) | F2 increased significantly (+0.08) | F3 increased significantly (+0.09)"
+    },
+    "day_174": {
+      "variable_changes": [
+        -0.0663,
+        -0.0159,
+        -0.0433,
+        0.0884
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 dropped slightly (-0.02) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_175": {
+      "variable_changes": [
+        -0.1861,
+        -0.0464,
+        0.1361,
+        -0.0468
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 dropped slightly (-0.05) | F2 increased significantly (+0.14) | F3 dropped slightly (-0.05)"
+    },
+    "day_176": {
+      "variable_changes": [
+        0.1368,
+        0.0826,
+        -0.1893,
+        -0.0869
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.19) | F3 decreased significantly (-0.09)"
+    },
+    "day_177": {
+      "variable_changes": [
+        0.1937,
+        -0.1717,
+        -0.061,
+        0.0105
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 decreased significantly (-0.17) | F2 decreased significantly (-0.06) | F3 rose slightly (+0.01)"
+    },
+    "day_178": {
+      "variable_changes": [
+        0.0263,
+        0.1649,
+        -0.0985,
+        0.0127
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.16) | F2 decreased significantly (-0.10) | F3 rose slightly (+0.01)"
+    },
+    "day_179": {
+      "variable_changes": [
+        0.0764,
+        -0.0316,
+        -0.091,
+        -0.0468
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 dropped slightly (-0.03) | F2 decreased significantly (-0.09) | F3 dropped slightly (-0.05)"
+    },
+    "day_180": {
+      "variable_changes": [
+        -0.1223,
+        -0.0019,
+        0.1084,
+        -0.0524
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 stable (-0.00) | F2 increased significantly (+0.11) | F3 decreased significantly (-0.05)"
+    },
+    "day_181": {
+      "variable_changes": [
+        0.0666,
+        -0.2034,
+        -0.1879,
+        0.1242
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 decreased significantly (-0.20) | F2 decreased significantly (-0.19) | F3 increased significantly (+0.12)"
+    },
+    "day_182": {
+      "variable_changes": [
+        -0.0186,
+        0.0419,
+        -0.1504,
+        -0.0971
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.15) | F3 decreased significantly (-0.10)"
+    },
+    "day_183": {
+      "variable_changes": [
+        0.1168,
+        -0.006,
+        0.0627,
+        0.0011
+      ],
+      "news_text": "F0 increased significantly (+0.12) | F1 stable (-0.01) | F2 increased significantly (+0.06) | F3 stable (0.00)"
+    },
+    "day_184": {
+      "variable_changes": [
+        0.116,
+        -0.0572,
+        -0.2325,
+        -0.0978
+      ],
+      "news_text": "F0 increased significantly (+0.12) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.23) | F3 decreased significantly (-0.10)"
+    },
+    "day_185": {
+      "variable_changes": [
+        0.0536,
+        0.0248,
+        -0.0284,
+        0.1168
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.03) | F3 increased significantly (+0.12)"
+    },
+    "day_186": {
+      "variable_changes": [
+        -0.0624,
+        -0.1188,
+        0.086,
+        -0.0714
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 decreased significantly (-0.12) | F2 increased significantly (+0.09) | F3 decreased significantly (-0.07)"
+    },
+    "day_187": {
+      "variable_changes": [
+        0.022,
+        -0.1476,
+        -0.1515,
+        -0.0679
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 decreased significantly (-0.15) | F2 decreased significantly (-0.15) | F3 decreased significantly (-0.07)"
+    },
+    "day_188": {
+      "variable_changes": [
+        0.2211,
+        0.0461,
+        -0.0293,
+        -0.0425
+      ],
+      "news_text": "F0 increased significantly (+0.22) | F1 rose slightly (+0.05) | F2 dropped slightly (-0.03) | F3 dropped slightly (-0.04)"
+    },
+    "day_189": {
+      "variable_changes": [
+        0.0224,
+        0.0129,
+        0.0712,
+        0.2038
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.01) | F2 increased significantly (+0.07) | F3 increased significantly (+0.20)"
+    },
+    "day_190": {
+      "variable_changes": [
+        -0.0334,
+        0.2655,
+        -0.1936,
+        0.0221
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 increased significantly (+0.27) | F2 decreased significantly (-0.19) | F3 rose slightly (+0.02)"
+    },
+    "day_191": {
+      "variable_changes": [
+        -0.0735,
+        0.0524,
+        -0.1347,
+        -0.0834
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 increased significantly (+0.05) | F2 decreased significantly (-0.13) | F3 decreased significantly (-0.08)"
+    },
+    "day_192": {
+      "variable_changes": [
+        0.003,
+        -0.1379,
+        0.3148,
+        0.1169
+      ],
+      "news_text": "F0 stable (0.00) | F1 decreased significantly (-0.14) | F2 increased significantly (+0.31) | F3 increased significantly (+0.12)"
+    },
+    "day_193": {
+      "variable_changes": [
+        0.0828,
+        0.0395,
+        0.0509,
+        -0.0147
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 rose slightly (+0.04) | F2 increased significantly (+0.05) | F3 dropped slightly (-0.01)"
+    },
+    "day_194": {
+      "variable_changes": [
+        0.0251,
+        -0.0238,
+        -0.1058,
+        -0.0189
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.11) | F3 dropped slightly (-0.02)"
+    },
+    "day_195": {
+      "variable_changes": [
+        0.146,
+        0.033,
+        0.1644,
+        0.1022
+      ],
+      "news_text": "F0 increased significantly (+0.15) | F1 rose slightly (+0.03) | F2 increased significantly (+0.16) | F3 increased significantly (+0.10)"
+    },
+    "day_196": {
+      "variable_changes": [
+        0.2295,
+        0.0234,
+        0.0178,
+        -0.0407
+      ],
+      "news_text": "F0 increased significantly (+0.23) | F1 rose slightly (+0.02) | F2 rose slightly (+0.02) | F3 dropped slightly (-0.04)"
+    },
+    "day_197": {
+      "variable_changes": [
+        0.1237,
+        -0.042,
+        0.0663,
+        -0.1706
+      ],
+      "news_text": "F0 increased significantly (+0.12) | F1 dropped slightly (-0.04) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.17)"
+    },
+    "day_198": {
+      "variable_changes": [
+        -0.0457,
+        0.1458,
+        0.0535,
+        0.1371
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.15) | F2 increased significantly (+0.05) | F3 increased significantly (+0.14)"
+    },
+    "day_199": {
+      "variable_changes": [
+        -0.0507,
+        -0.0213,
+        -0.1684,
+        0.0001
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.17) | F3 stable (0.00)"
+    },
+    "day_200": {
+      "variable_changes": [
+        0.0841,
+        -0.0218,
+        0.0105,
+        -0.0948
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 dropped slightly (-0.02) | F2 rose slightly (+0.01) | F3 decreased significantly (-0.09)"
+    },
+    "day_201": {
+      "variable_changes": [
+        -0.0848,
+        0.0016,
+        0.079,
+        -0.0358
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 stable (0.00) | F2 increased significantly (+0.08) | F3 dropped slightly (-0.04)"
+    },
+    "day_202": {
+      "variable_changes": [
+        0.0717,
+        0.1172,
+        -0.0473,
+        -0.1154
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 increased significantly (+0.12) | F2 dropped slightly (-0.05) | F3 decreased significantly (-0.12)"
+    },
+    "day_203": {
+      "variable_changes": [
+        -0.2252,
+        0.0251,
+        -0.073,
+        0.0091
+      ],
+      "news_text": "F0 decreased significantly (-0.23) | F1 rose slightly (+0.03) | F2 decreased significantly (-0.07) | F3 stable (0.01)"
+    },
+    "day_204": {
+      "variable_changes": [
+        -0.0671,
+        -0.0248,
+        0.0387,
+        -0.0363
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 dropped slightly (-0.02) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.04)"
+    },
+    "day_205": {
+      "variable_changes": [
+        0.1029,
+        -0.079,
+        -0.0637,
+        -0.0409
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.06) | F3 dropped slightly (-0.04)"
+    },
+    "day_206": {
+      "variable_changes": [
+        0.0433,
+        -0.1098,
+        0.1152,
+        -0.1793
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.11) | F2 increased significantly (+0.12) | F3 decreased significantly (-0.18)"
+    },
+    "day_207": {
+      "variable_changes": [
+        -0.0175,
+        0.0347,
+        -0.1509,
+        0.0366
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.03) | F2 decreased significantly (-0.15) | F3 rose slightly (+0.04)"
+    },
+    "day_208": {
+      "variable_changes": [
+        0.0829,
+        0.0234,
+        -0.0069,
+        -0.009
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 rose slightly (+0.02) | F2 stable (-0.01) | F3 stable (-0.01)"
+    },
+    "day_209": {
+      "variable_changes": [
+        -0.0021,
+        0.0954,
+        -0.0264,
+        -0.0493
+      ],
+      "news_text": "F0 stable (-0.00) | F1 increased significantly (+0.10) | F2 dropped slightly (-0.03) | F3 dropped slightly (-0.05)"
+    },
+    "day_210": {
+      "variable_changes": [
+        0.087,
+        0.0593,
+        0.1055,
+        -0.1138
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 increased significantly (+0.06) | F2 increased significantly (+0.11) | F3 decreased significantly (-0.11)"
+    },
+    "day_211": {
+      "variable_changes": [
+        0.1117,
+        -0.0173,
+        -0.0927,
+        0.0768
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.09) | F3 increased significantly (+0.08)"
+    },
+    "day_212": {
+      "variable_changes": [
+        0.0333,
+        -0.1084,
+        -0.0235,
+        0.0639
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.11) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.06)"
+    },
+    "day_213": {
+      "variable_changes": [
+        -0.1772,
+        0.0545,
+        -0.0209,
+        0.0515
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 increased significantly (+0.05) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.05)"
+    },
+    "day_214": {
+      "variable_changes": [
+        -0.2227,
+        0.1598,
+        -0.0613,
+        -0.0585
+      ],
+      "news_text": "F0 decreased significantly (-0.22) | F1 increased significantly (+0.16) | F2 decreased significantly (-0.06) | F3 decreased significantly (-0.06)"
+    },
+    "day_215": {
+      "variable_changes": [
+        -0.024,
+        0.0549,
+        -0.0142,
+        0.1554
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.05) | F2 dropped slightly (-0.01) | F3 increased significantly (+0.16)"
+    },
+    "day_216": {
+      "variable_changes": [
+        -0.0235,
+        0.1645,
+        -0.0203,
+        0.0006
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.16) | F2 dropped slightly (-0.02) | F3 stable (0.00)"
+    },
+    "day_217": {
+      "variable_changes": [
+        -0.1592,
+        -0.0805,
+        0.0295,
+        -0.1454
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 decreased significantly (-0.08) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.15)"
+    },
+    "day_218": {
+      "variable_changes": [
+        0.169,
+        0.0215,
+        -0.0357,
+        -0.0089
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.04) | F3 stable (-0.01)"
+    },
+    "day_219": {
+      "variable_changes": [
+        0.1674,
+        0.0782,
+        -0.19,
+        -0.0419
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.19) | F3 dropped slightly (-0.04)"
+    },
+    "day_220": {
+      "variable_changes": [
+        0.0919,
+        -0.0851,
+        0.0358,
+        -0.2273
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 decreased significantly (-0.09) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.23)"
+    },
+    "day_221": {
+      "variable_changes": [
+        -0.0589,
+        0.011,
+        0.0726,
+        -0.0483
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 rose slightly (+0.01) | F2 increased significantly (+0.07) | F3 dropped slightly (-0.05)"
+    },
+    "day_222": {
+      "variable_changes": [
+        0.0927,
+        -0.1489,
+        -0.0187,
+        0.0184
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 decreased significantly (-0.15) | F2 dropped slightly (-0.02) | F3 rose slightly (+0.02)"
+    },
+    "day_223": {
+      "variable_changes": [
+        -0.1572,
+        0.1293,
+        0.0292,
+        -0.1107
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.13) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.11)"
+    },
+    "day_224": {
+      "variable_changes": [
+        0.0553,
+        -0.0837,
+        -0.0652,
+        -0.1372
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.14)"
+    },
+    "day_225": {
+      "variable_changes": [
+        -0.0362,
+        -0.2199,
+        0.0216,
+        0.1852
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.22) | F2 rose slightly (+0.02) | F3 increased significantly (+0.19)"
+    },
+    "day_226": {
+      "variable_changes": [
+        -0.0446,
+        -0.2306,
+        -0.048,
+        -0.007
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.23) | F2 dropped slightly (-0.05) | F3 stable (-0.01)"
+    },
+    "day_227": {
+      "variable_changes": [
+        0.0152,
+        -0.0066,
+        0.1522,
+        -0.0189
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 stable (-0.01) | F2 increased significantly (+0.15) | F3 dropped slightly (-0.02)"
+    },
+    "day_228": {
+      "variable_changes": [
+        -0.0397,
+        0.0349,
+        0.0445,
+        -0.0214
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 rose slightly (+0.03) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.02)"
+    },
+    "day_229": {
+      "variable_changes": [
+        -0.0244,
+        -0.0652,
+        0.0729,
+        -0.1555
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.16)"
+    },
+    "day_230": {
+      "variable_changes": [
+        0.0117,
+        0.0888,
+        -0.0057,
+        -0.1743
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 increased significantly (+0.09) | F2 stable (-0.01) | F3 decreased significantly (-0.17)"
+    },
+    "day_231": {
+      "variable_changes": [
+        -0.0165,
+        0.0727,
+        0.0227,
+        -0.1084
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.07) | F2 rose slightly (+0.02) | F3 decreased significantly (-0.11)"
+    },
+    "day_232": {
+      "variable_changes": [
+        0.2285,
+        0.0931,
+        0.0152,
+        0.2773
+      ],
+      "news_text": "F0 increased significantly (+0.23) | F1 increased significantly (+0.09) | F2 rose slightly (+0.02) | F3 increased significantly (+0.28)"
+    },
+    "day_233": {
+      "variable_changes": [
+        -0.0293,
+        -0.1512,
+        -0.0167,
+        0.0067
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.15) | F2 dropped slightly (-0.02) | F3 stable (0.01)"
+    },
+    "day_234": {
+      "variable_changes": [
+        -0.1573,
+        0.0691,
+        0.0985,
+        -0.1423
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 increased significantly (+0.07) | F2 increased significantly (+0.10) | F3 decreased significantly (-0.14)"
+    },
+    "day_235": {
+      "variable_changes": [
+        -0.0652,
+        -0.1226,
+        -0.1306,
+        0.044
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 decreased significantly (-0.12) | F2 decreased significantly (-0.13) | F3 rose slightly (+0.04)"
+    },
+    "day_236": {
+      "variable_changes": [
+        0.009,
+        -0.0221,
+        0.0308,
+        -0.0389
+      ],
+      "news_text": "F0 stable (0.01) | F1 dropped slightly (-0.02) | F2 rose slightly (+0.03) | F3 dropped slightly (-0.04)"
+    },
+    "day_237": {
+      "variable_changes": [
+        -0.0653,
+        -0.04,
+        -0.025,
+        0.0018
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 dropped slightly (-0.04) | F2 dropped slightly (-0.02) | F3 stable (0.00)"
+    },
+    "day_238": {
+      "variable_changes": [
+        0.0511,
+        -0.0734,
+        -0.0294,
+        -0.0577
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 decreased significantly (-0.07) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.06)"
+    },
+    "day_239": {
+      "variable_changes": [
+        -0.0627,
+        0.079,
+        -0.071,
+        -0.0156
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.07) | F3 dropped slightly (-0.02)"
+    },
+    "day_240": {
+      "variable_changes": [
+        -0.1023,
+        0.0703,
+        0.1101,
+        0.017
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 increased significantly (+0.07) | F2 increased significantly (+0.11) | F3 rose slightly (+0.02)"
+    },
+    "day_241": {
+      "variable_changes": [
+        0.1937,
+        -0.2109,
+        -0.0694,
+        0.0655
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 decreased significantly (-0.21) | F2 decreased significantly (-0.07) | F3 increased significantly (+0.07)"
+    },
+    "day_242": {
+      "variable_changes": [
+        -0.1559,
+        -0.0169,
+        0.0071,
+        -0.0249
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 dropped slightly (-0.02) | F2 stable (0.01) | F3 dropped slightly (-0.02)"
+    },
+    "day_243": {
+      "variable_changes": [
+        -0.0046,
+        0.0849,
+        0.1083,
+        -0.1412
+      ],
+      "news_text": "F0 stable (-0.00) | F1 increased significantly (+0.08) | F2 increased significantly (+0.11) | F3 decreased significantly (-0.14)"
+    },
+    "day_244": {
+      "variable_changes": [
+        -0.1323,
+        0.0444,
+        -0.1177,
+        0.1911
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.12) | F3 increased significantly (+0.19)"
+    },
+    "day_245": {
+      "variable_changes": [
+        -0.0103,
+        0.023,
+        -0.0177,
+        -0.0368
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.02) | F3 dropped slightly (-0.04)"
+    },
+    "day_246": {
+      "variable_changes": [
+        -0.0732,
+        0.1688,
+        0.0365,
+        -0.2018
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 increased significantly (+0.17) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.20)"
+    },
+    "day_247": {
+      "variable_changes": [
+        -0.0637,
+        0.0531,
+        0.042,
+        0.1228
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.05) | F2 rose slightly (+0.04) | F3 increased significantly (+0.12)"
+    },
+    "day_248": {
+      "variable_changes": [
+        0.0269,
+        -0.0254,
+        -0.0175,
+        0.0291
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 dropped slightly (-0.03) | F2 dropped slightly (-0.02) | F3 rose slightly (+0.03)"
+    },
+    "day_249": {
+      "variable_changes": [
+        0.0544,
+        -0.064,
+        -0.0326,
+        0.057
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 decreased significantly (-0.06) | F2 dropped slightly (-0.03) | F3 increased significantly (+0.06)"
+    },
+    "day_250": {
+      "variable_changes": [
+        0.0144,
+        -0.0105,
+        0.0839,
+        -0.0741
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 dropped slightly (-0.01) | F2 increased significantly (+0.08) | F3 decreased significantly (-0.07)"
+    },
+    "day_251": {
+      "variable_changes": [
+        0.0605,
+        0.1223,
+        -0.0007,
+        -0.009
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.12) | F2 stable (-0.00) | F3 stable (-0.01)"
+    },
+    "day_252": {
+      "variable_changes": [
+        -0.1057,
+        -0.0367,
+        -0.0662,
+        0.1
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.07) | F3 increased significantly (+0.10)"
+    },
+    "day_253": {
+      "variable_changes": [
+        -0.026,
+        -0.0285,
+        0.1081,
+        -0.0077
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.11) | F3 stable (-0.01)"
+    },
+    "day_254": {
+      "variable_changes": [
+        0.0552,
+        -0.0359,
+        0.0387,
+        -0.0176
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 dropped slightly (-0.04) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.02)"
+    },
+    "day_255": {
+      "variable_changes": [
+        0.1286,
+        0.0232,
+        -0.1404,
+        -0.0487
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.14) | F3 dropped slightly (-0.05)"
+    },
+    "day_256": {
+      "variable_changes": [
+        -0.1263,
+        0.0539,
+        0.0786,
+        0.0257
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 increased significantly (+0.05) | F2 increased significantly (+0.08) | F3 rose slightly (+0.03)"
+    },
+    "day_257": {
+      "variable_changes": [
+        -0.0505,
+        -0.1139,
+        -0.0046,
+        -0.0667
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 decreased significantly (-0.11) | F2 stable (-0.00) | F3 decreased significantly (-0.07)"
+    },
+    "day_258": {
+      "variable_changes": [
+        0.093,
+        -0.039,
+        0.0457,
+        -0.048
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 dropped slightly (-0.04) | F2 rose slightly (+0.05) | F3 dropped slightly (-0.05)"
+    },
+    "day_259": {
+      "variable_changes": [
+        0.1094,
+        -0.1016,
+        -0.0355,
+        0.058
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.10) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.06)"
+    },
+    "day_260": {
+      "variable_changes": [
+        0.1676,
+        -0.1431,
+        -0.1271,
+        0.047
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 decreased significantly (-0.14) | F2 decreased significantly (-0.13) | F3 rose slightly (+0.05)"
+    },
+    "day_261": {
+      "variable_changes": [
+        0.158,
+        0.084,
+        0.0716,
+        -0.1067
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 increased significantly (+0.08) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.11)"
+    },
+    "day_262": {
+      "variable_changes": [
+        0.0262,
+        0.0511,
+        0.0213,
+        0.0304
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.05) | F2 rose slightly (+0.02) | F3 rose slightly (+0.03)"
+    },
+    "day_263": {
+      "variable_changes": [
+        0.0754,
+        -0.2435,
+        -0.2037,
+        -0.119
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.24) | F2 decreased significantly (-0.20) | F3 decreased significantly (-0.12)"
+    },
+    "day_264": {
+      "variable_changes": [
+        0.0086,
+        -0.0389,
+        -0.1334,
+        0.162
+      ],
+      "news_text": "F0 stable (0.01) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.13) | F3 increased significantly (+0.16)"
+    },
+    "day_265": {
+      "variable_changes": [
+        -0.0208,
+        0.0196,
+        0.0934,
+        0.213
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.02) | F2 increased significantly (+0.09) | F3 increased significantly (+0.21)"
+    },
+    "day_266": {
+      "variable_changes": [
+        -0.0059,
+        0.0185,
+        -0.1245,
+        -0.0048
+      ],
+      "news_text": "F0 stable (-0.01) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.12) | F3 stable (-0.00)"
+    },
+    "day_267": {
+      "variable_changes": [
+        -0.1261,
+        -0.0453,
+        0.0762,
+        0.0358
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 dropped slightly (-0.05) | F2 increased significantly (+0.08) | F3 rose slightly (+0.04)"
+    },
+    "day_268": {
+      "variable_changes": [
+        0.0947,
+        0.0251,
+        0.1166,
+        -0.0982
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 rose slightly (+0.03) | F2 increased significantly (+0.12) | F3 decreased significantly (-0.10)"
+    },
+    "day_269": {
+      "variable_changes": [
+        0.1217,
+        -0.0572,
+        -0.0377,
+        -0.0313
+      ],
+      "news_text": "F0 increased significantly (+0.12) | F1 decreased significantly (-0.06) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.03)"
+    },
+    "day_270": {
+      "variable_changes": [
+        0.1832,
+        -0.0755,
+        0.0481,
+        0.0418
+      ],
+      "news_text": "F0 increased significantly (+0.18) | F1 decreased significantly (-0.08) | F2 rose slightly (+0.05) | F3 rose slightly (+0.04)"
+    },
+    "day_271": {
+      "variable_changes": [
+        0.0097,
+        -0.0791,
+        -0.1146,
+        -0.1152
+      ],
+      "news_text": "F0 stable (0.01) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.11) | F3 decreased significantly (-0.12)"
+    },
+    "day_272": {
+      "variable_changes": [
+        0.1087,
+        -0.0791,
+        -0.1213,
+        0.0954
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.12) | F3 increased significantly (+0.10)"
+    },
+    "day_273": {
+      "variable_changes": [
+        0.0613,
+        -0.0038,
+        -0.0533,
+        -0.2741
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 stable (-0.00) | F2 decreased significantly (-0.05) | F3 decreased significantly (-0.27)"
+    },
+    "day_274": {
+      "variable_changes": [
+        -0.0788,
+        -0.0181,
+        -0.1084,
+        -0.1083
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.11) | F3 decreased significantly (-0.11)"
+    },
+    "day_275": {
+      "variable_changes": [
+        0.2045,
+        -0.1718,
+        0.0281,
+        -0.0817
+      ],
+      "news_text": "F0 increased significantly (+0.20) | F1 decreased significantly (-0.17) | F2 rose slightly (+0.03) | F3 decreased significantly (-0.08)"
+    },
+    "day_276": {
+      "variable_changes": [
+        0.0173,
+        -0.1235,
+        0.1176,
+        -0.0358
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 decreased significantly (-0.12) | F2 increased significantly (+0.12) | F3 dropped slightly (-0.04)"
+    },
+    "day_277": {
+      "variable_changes": [
+        0.1687,
+        0.1345,
+        -0.0934,
+        -0.1032
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 increased significantly (+0.13) | F2 decreased significantly (-0.09) | F3 decreased significantly (-0.10)"
+    },
+    "day_278": {
+      "variable_changes": [
+        -0.1335,
+        -0.102,
+        0.1208,
+        0.1607
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 decreased significantly (-0.10) | F2 increased significantly (+0.12) | F3 increased significantly (+0.16)"
+    },
+    "day_279": {
+      "variable_changes": [
+        -0.0615,
+        0.1071,
+        -0.0072,
+        -0.0293
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.11) | F2 stable (-0.01) | F3 dropped slightly (-0.03)"
+    },
+    "day_280": {
+      "variable_changes": [
+        -0.0167,
+        0.0774,
+        -0.2032,
+        -0.0386
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.20) | F3 dropped slightly (-0.04)"
+    },
+    "day_281": {
+      "variable_changes": [
+        -0.0634,
+        0.0804,
+        0.0734,
+        0.1002
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.08) | F2 increased significantly (+0.07) | F3 increased significantly (+0.10)"
+    },
+    "day_282": {
+      "variable_changes": [
+        0.0633,
+        0.035,
+        -0.0829,
+        0.0257
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.08) | F3 rose slightly (+0.03)"
+    },
+    "day_283": {
+      "variable_changes": [
+        -0.0376,
+        -0.0531,
+        -0.2235,
+        0.1081
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.05) | F2 decreased significantly (-0.22) | F3 increased significantly (+0.11)"
+    },
+    "day_284": {
+      "variable_changes": [
+        -0.0978,
+        -0.0037,
+        0.1899,
+        0.0908
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 stable (-0.00) | F2 increased significantly (+0.19) | F3 increased significantly (+0.09)"
+    },
+    "day_285": {
+      "variable_changes": [
+        -0.0474,
+        0.2513,
+        0.1051,
+        -0.084
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.25) | F2 increased significantly (+0.11) | F3 decreased significantly (-0.08)"
+    },
+    "day_286": {
+      "variable_changes": [
+        -0.0456,
+        0.1051,
+        0.0851,
+        0.0416
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.11) | F2 increased significantly (+0.09) | F3 rose slightly (+0.04)"
+    },
+    "day_287": {
+      "variable_changes": [
+        -0.1206,
+        -0.009,
+        0.086,
+        0.1916
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 stable (-0.01) | F2 increased significantly (+0.09) | F3 increased significantly (+0.19)"
+    },
+    "day_288": {
+      "variable_changes": [
+        0.0173,
+        -0.0189,
+        -0.0209,
+        0.0523
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 dropped slightly (-0.02) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.05)"
+    },
+    "day_289": {
+      "variable_changes": [
+        -0.1812,
+        -0.0398,
+        -0.0118,
+        0.0367
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 dropped slightly (-0.04) | F2 dropped slightly (-0.01) | F3 rose slightly (+0.04)"
+    },
+    "day_290": {
+      "variable_changes": [
+        -0.0061,
+        -0.0242,
+        -0.0497,
+        0.0081
+      ],
+      "news_text": "F0 stable (-0.01) | F1 dropped slightly (-0.02) | F2 dropped slightly (-0.05) | F3 stable (0.01)"
+    },
+    "day_291": {
+      "variable_changes": [
+        0.0535,
+        0.0392,
+        0.1,
+        -0.0414
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 rose slightly (+0.04) | F2 increased significantly (+0.10) | F3 dropped slightly (-0.04)"
+    },
+    "day_292": {
+      "variable_changes": [
+        0.0623,
+        -0.152,
+        -0.0322,
+        0.1436
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.15) | F2 dropped slightly (-0.03) | F3 increased significantly (+0.14)"
+    },
+    "day_293": {
+      "variable_changes": [
+        -0.088,
+        0.0716,
+        -0.0622,
+        0.0139
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 increased significantly (+0.07) | F2 decreased significantly (-0.06) | F3 rose slightly (+0.01)"
+    },
+    "day_294": {
+      "variable_changes": [
+        -0.1531,
+        0.1776,
+        0.1526,
+        -0.0707
+      ],
+      "news_text": "F0 decreased significantly (-0.15) | F1 increased significantly (+0.18) | F2 increased significantly (+0.15) | F3 decreased significantly (-0.07)"
+    },
+    "day_295": {
+      "variable_changes": [
+        -0.1009,
+        -0.1602,
+        0.0245,
+        0.0227
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 decreased significantly (-0.16) | F2 rose slightly (+0.02) | F3 rose slightly (+0.02)"
+    },
+    "day_296": {
+      "variable_changes": [
+        0.0603,
+        0.0468,
+        -0.0957,
+        0.1106
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 rose slightly (+0.05) | F2 decreased significantly (-0.10) | F3 increased significantly (+0.11)"
+    },
+    "day_297": {
+      "variable_changes": [
+        0.1599,
+        -0.028,
+        -0.0559,
+        -0.0191
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 dropped slightly (-0.03) | F2 decreased significantly (-0.06) | F3 dropped slightly (-0.02)"
+    },
+    "day_298": {
+      "variable_changes": [
+        -0.036,
+        0.0904,
+        0.0937,
+        0.0651
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 increased significantly (+0.09) | F2 increased significantly (+0.09) | F3 increased significantly (+0.07)"
+    },
+    "day_299": {
+      "variable_changes": [
+        -0.028,
+        0.0078,
+        0.105,
+        0.0658
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 stable (0.01) | F2 increased significantly (+0.10) | F3 increased significantly (+0.07)"
+    },
+    "day_300": {
+      "variable_changes": [
+        0.0243,
+        0.0378,
+        0.1176,
+        -0.0339
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.04) | F2 increased significantly (+0.12) | F3 dropped slightly (-0.03)"
+    },
+    "day_301": {
+      "variable_changes": [
+        -0.0992,
+        -0.0319,
+        0.1926,
+        -0.0768
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.19) | F3 decreased significantly (-0.08)"
+    },
+    "day_302": {
+      "variable_changes": [
+        0.1254,
+        -0.1071,
+        0.0063,
+        0.0697
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 decreased significantly (-0.11) | F2 stable (0.01) | F3 increased significantly (+0.07)"
+    },
+    "day_303": {
+      "variable_changes": [
+        -0.0347,
+        -0.0607,
+        0.0442,
+        -0.101
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.06) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.10)"
+    },
+    "day_304": {
+      "variable_changes": [
+        0.1117,
+        -0.0561,
+        0.0519,
+        -0.0559
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.06) | F2 increased significantly (+0.05) | F3 decreased significantly (-0.06)"
+    },
+    "day_305": {
+      "variable_changes": [
+        -0.0093,
+        -0.0113,
+        0.101,
+        0.0614
+      ],
+      "news_text": "F0 stable (-0.01) | F1 dropped slightly (-0.01) | F2 increased significantly (+0.10) | F3 increased significantly (+0.06)"
+    },
+    "day_306": {
+      "variable_changes": [
+        -0.1126,
+        -0.1418,
+        -0.1154,
+        -0.0814
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 decreased significantly (-0.14) | F2 decreased significantly (-0.12) | F3 decreased significantly (-0.08)"
+    },
+    "day_307": {
+      "variable_changes": [
+        0.1072,
+        0.0182,
+        0.1115,
+        -0.0772
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 rose slightly (+0.02) | F2 increased significantly (+0.11) | F3 decreased significantly (-0.08)"
+    },
+    "day_308": {
+      "variable_changes": [
+        -0.0264,
+        -0.0428,
+        -0.1531,
+        0.122
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.15) | F3 increased significantly (+0.12)"
+    },
+    "day_309": {
+      "variable_changes": [
+        -0.1073,
+        -0.123,
+        0.0308,
+        0.1043
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 decreased significantly (-0.12) | F2 rose slightly (+0.03) | F3 increased significantly (+0.10)"
+    },
+    "day_310": {
+      "variable_changes": [
+        0.0817,
+        0.0524,
+        0.1534,
+        -0.0587
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 increased significantly (+0.05) | F2 increased significantly (+0.15) | F3 decreased significantly (-0.06)"
+    },
+    "day_311": {
+      "variable_changes": [
+        -0.167,
+        0.0561,
+        -0.0342,
+        0.064
+      ],
+      "news_text": "F0 decreased significantly (-0.17) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.03) | F3 increased significantly (+0.06)"
+    },
+    "day_312": {
+      "variable_changes": [
+        0.1924,
+        0.1085,
+        0.0353,
+        -0.0541
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 increased significantly (+0.11) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.05)"
+    },
+    "day_313": {
+      "variable_changes": [
+        0.1126,
+        0.1091,
+        0.0837,
+        0.0289
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 increased significantly (+0.11) | F2 increased significantly (+0.08) | F3 rose slightly (+0.03)"
+    },
+    "day_314": {
+      "variable_changes": [
+        -0.087,
+        0.0308,
+        0.1308,
+        -0.0658
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 rose slightly (+0.03) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.07)"
+    },
+    "day_315": {
+      "variable_changes": [
+        0.0673,
+        0.2053,
+        0.0726,
+        0.066
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 increased significantly (+0.21) | F2 increased significantly (+0.07) | F3 increased significantly (+0.07)"
+    },
+    "day_316": {
+      "variable_changes": [
+        0.0222,
+        0.0804,
+        0.3144,
+        -0.0677
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.08) | F2 increased significantly (+0.31) | F3 decreased significantly (-0.07)"
+    },
+    "day_317": {
+      "variable_changes": [
+        -0.0628,
+        0.0379,
+        -0.0943,
+        -0.0766
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.09) | F3 decreased significantly (-0.08)"
+    },
+    "day_318": {
+      "variable_changes": [
+        -0.0931,
+        0.0055,
+        -0.1999,
+        -0.0661
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 stable (0.01) | F2 decreased significantly (-0.20) | F3 decreased significantly (-0.07)"
+    },
+    "day_319": {
+      "variable_changes": [
+        -0.113,
+        -0.0397,
+        0.0471,
+        0.0467
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 dropped slightly (-0.04) | F2 rose slightly (+0.05) | F3 rose slightly (+0.05)"
+    },
+    "day_320": {
+      "variable_changes": [
+        0.0105,
+        0.0556,
+        -0.0296,
+        -0.0077
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.03) | F3 stable (-0.01)"
+    },
+    "day_321": {
+      "variable_changes": [
+        -0.0757,
+        0.0152,
+        -0.0337,
+        -0.1668
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.17)"
+    },
+    "day_322": {
+      "variable_changes": [
+        0.0024,
+        0.2248,
+        -0.1566,
+        0.0065
+      ],
+      "news_text": "F0 stable (0.00) | F1 increased significantly (+0.22) | F2 decreased significantly (-0.16) | F3 stable (0.01)"
+    },
+    "day_323": {
+      "variable_changes": [
+        -0.179,
+        0.1559,
+        0.187,
+        0.1077
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 increased significantly (+0.16) | F2 increased significantly (+0.19) | F3 increased significantly (+0.11)"
+    },
+    "day_324": {
+      "variable_changes": [
+        0.1485,
+        -0.0179,
+        -0.0695,
+        -0.136
+      ],
+      "news_text": "F0 increased significantly (+0.15) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.14)"
+    },
+    "day_325": {
+      "variable_changes": [
+        -0.006,
+        0.0895,
+        0.0439,
+        -0.0236
+      ],
+      "news_text": "F0 stable (-0.01) | F1 increased significantly (+0.09) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.02)"
+    },
+    "day_326": {
+      "variable_changes": [
+        0.1687,
+        -0.1287,
+        -0.0835,
+        0.0936
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 decreased significantly (-0.13) | F2 decreased significantly (-0.08) | F3 increased significantly (+0.09)"
+    },
+    "day_327": {
+      "variable_changes": [
+        -0.1909,
+        -0.1289,
+        -0.0138,
+        0.0601
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 decreased significantly (-0.13) | F2 dropped slightly (-0.01) | F3 increased significantly (+0.06)"
+    },
+    "day_328": {
+      "variable_changes": [
+        0.0608,
+        0.1187,
+        0.0527,
+        -0.0951
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.12) | F2 increased significantly (+0.05) | F3 decreased significantly (-0.10)"
+    },
+    "day_329": {
+      "variable_changes": [
+        -0.0407,
+        -0.0466,
+        0.0808,
+        0.0697
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 dropped slightly (-0.05) | F2 increased significantly (+0.08) | F3 increased significantly (+0.07)"
+    },
+    "day_330": {
+      "variable_changes": [
+        -0.045,
+        -0.1682,
+        0.0178,
+        -0.1512
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 decreased significantly (-0.17) | F2 rose slightly (+0.02) | F3 decreased significantly (-0.15)"
+    },
+    "day_331": {
+      "variable_changes": [
+        -0.1082,
+        0.0146,
+        0.024,
+        -0.0771
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 rose slightly (+0.01) | F2 rose slightly (+0.02) | F3 decreased significantly (-0.08)"
+    },
+    "day_332": {
+      "variable_changes": [
+        0.0,
+        0.0324,
+        0.1734,
+        0.0725
+      ],
+      "news_text": "F0 stable (0.00) | F1 rose slightly (+0.03) | F2 increased significantly (+0.17) | F3 increased significantly (+0.07)"
+    },
+    "day_333": {
+      "variable_changes": [
+        -0.0753,
+        -0.0474,
+        0.0292,
+        0.0804
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 dropped slightly (-0.05) | F2 rose slightly (+0.03) | F3 increased significantly (+0.08)"
+    },
+    "day_334": {
+      "variable_changes": [
+        -0.0034,
+        -0.0126,
+        0.1415,
+        0.0017
+      ],
+      "news_text": "F0 stable (-0.00) | F1 dropped slightly (-0.01) | F2 increased significantly (+0.14) | F3 stable (0.00)"
+    },
+    "day_335": {
+      "variable_changes": [
+        -0.2002,
+        0.2734,
+        -0.0351,
+        -0.0486
+      ],
+      "news_text": "F0 decreased significantly (-0.20) | F1 increased significantly (+0.27) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.05)"
+    },
+    "day_336": {
+      "variable_changes": [
+        0.0345,
+        0.01,
+        0.0818,
+        0.008
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 stable (0.01) | F2 increased significantly (+0.08) | F3 stable (0.01)"
+    },
+    "day_337": {
+      "variable_changes": [
+        0.0654,
+        -0.0784,
+        -0.2343,
+        0.0365
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.23) | F3 rose slightly (+0.04)"
+    },
+    "day_338": {
+      "variable_changes": [
+        -0.1058,
+        -0.1584,
+        0.0141,
+        0.0115
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 decreased significantly (-0.16) | F2 rose slightly (+0.01) | F3 rose slightly (+0.01)"
+    },
+    "day_339": {
+      "variable_changes": [
+        0.0473,
+        0.1048,
+        -0.0198,
+        -0.1626
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 increased significantly (+0.10) | F2 dropped slightly (-0.02) | F3 decreased significantly (-0.16)"
+    },
+    "day_340": {
+      "variable_changes": [
+        0.0764,
+        0.0599,
+        -0.1081,
+        0.1873
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 increased significantly (+0.06) | F2 decreased significantly (-0.11) | F3 increased significantly (+0.19)"
+    },
+    "day_341": {
+      "variable_changes": [
+        -0.0825,
+        0.0998,
+        0.0691,
+        -0.1016
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 increased significantly (+0.10) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.10)"
+    },
+    "day_342": {
+      "variable_changes": [
+        -0.0492,
+        0.0601,
+        0.1038,
+        -0.0708
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.06) | F2 increased significantly (+0.10) | F3 decreased significantly (-0.07)"
+    },
+    "day_343": {
+      "variable_changes": [
+        -0.0655,
+        -0.1285,
+        0.128,
+        0.0885
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 decreased significantly (-0.13) | F2 increased significantly (+0.13) | F3 increased significantly (+0.09)"
+    },
+    "day_344": {
+      "variable_changes": [
+        -0.0123,
+        -0.1294,
+        -0.0179,
+        -0.0013
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 decreased significantly (-0.13) | F2 dropped slightly (-0.02) | F3 stable (-0.00)"
+    },
+    "day_345": {
+      "variable_changes": [
+        0.047,
+        -0.1819,
+        0.07,
+        -0.0287
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 decreased significantly (-0.18) | F2 increased significantly (+0.07) | F3 dropped slightly (-0.03)"
+    },
+    "day_346": {
+      "variable_changes": [
+        0.0971,
+        0.0547,
+        -0.1031,
+        -0.0009
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 increased significantly (+0.05) | F2 decreased significantly (-0.10) | F3 stable (-0.00)"
+    },
+    "day_347": {
+      "variable_changes": [
+        -0.0497,
+        0.0177,
+        -0.0832,
+        -0.0471
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.08) | F3 dropped slightly (-0.05)"
+    },
+    "day_348": {
+      "variable_changes": [
+        -0.0497,
+        -0.1811,
+        0.0448,
+        0.1867
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 decreased significantly (-0.18) | F2 rose slightly (+0.04) | F3 increased significantly (+0.19)"
+    },
+    "day_349": {
+      "variable_changes": [
+        -0.0429,
+        0.0419,
+        -0.0413,
+        -0.2484
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 rose slightly (+0.04) | F2 dropped slightly (-0.04) | F3 decreased significantly (-0.25)"
+    },
+    "day_350": {
+      "variable_changes": [
+        -0.0982,
+        0.1604,
+        0.219,
+        -0.0011
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 increased significantly (+0.16) | F2 increased significantly (+0.22) | F3 stable (-0.00)"
+    },
+    "day_351": {
+      "variable_changes": [
+        -0.0841,
+        0.0792,
+        -0.0939,
+        0.0282
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.09) | F3 rose slightly (+0.03)"
+    },
+    "day_352": {
+      "variable_changes": [
+        0.0008,
+        -0.0779,
+        0.0592,
+        -0.0065
+      ],
+      "news_text": "F0 stable (0.00) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.06) | F3 stable (-0.01)"
+    },
+    "day_353": {
+      "variable_changes": [
+        0.1742,
+        0.1126,
+        0.0077,
+        -0.1294
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 increased significantly (+0.11) | F2 stable (0.01) | F3 decreased significantly (-0.13)"
+    },
+    "day_354": {
+      "variable_changes": [
+        -0.0985,
+        0.1056,
+        0.0799,
+        -0.113
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 increased significantly (+0.11) | F2 increased significantly (+0.08) | F3 decreased significantly (-0.11)"
+    },
+    "day_355": {
+      "variable_changes": [
+        0.0051,
+        -0.0772,
+        -0.1142,
+        -0.1713
+      ],
+      "news_text": "F0 stable (0.01) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.11) | F3 decreased significantly (-0.17)"
+    },
+    "day_356": {
+      "variable_changes": [
+        -0.0141,
+        -0.0056,
+        -0.0401,
+        -0.1256
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 stable (-0.01) | F2 dropped slightly (-0.04) | F3 decreased significantly (-0.13)"
+    },
+    "day_357": {
+      "variable_changes": [
+        0.0278,
+        -0.0577,
+        0.0681,
+        0.0212
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.06) | F2 increased significantly (+0.07) | F3 rose slightly (+0.02)"
+    },
+    "day_358": {
+      "variable_changes": [
+        -0.0458,
+        0.09,
+        -0.0752,
+        -0.0701
+      ],
+      "news_text": "F0 dropped slightly (-0.05) | F1 increased significantly (+0.09) | F2 decreased significantly (-0.08) | F3 decreased significantly (-0.07)"
+    },
+    "day_359": {
+      "variable_changes": [
+        0.0052,
+        0.0733,
+        -0.0189,
+        0.0112
+      ],
+      "news_text": "F0 stable (0.01) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.02) | F3 rose slightly (+0.01)"
+    },
+    "day_360": {
+      "variable_changes": [
+        0.0266,
+        -0.0325,
+        0.0254,
+        0.0218
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 dropped slightly (-0.03) | F2 rose slightly (+0.03) | F3 rose slightly (+0.02)"
+    },
+    "day_361": {
+      "variable_changes": [
+        -0.1676,
+        0.13,
+        0.1448,
+        0.0152
+      ],
+      "news_text": "F0 decreased significantly (-0.17) | F1 increased significantly (+0.13) | F2 increased significantly (+0.14) | F3 rose slightly (+0.02)"
+    },
+    "day_362": {
+      "variable_changes": [
+        0.1036,
+        0.0144,
+        0.0798,
+        0.1008
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 rose slightly (+0.01) | F2 increased significantly (+0.08) | F3 increased significantly (+0.10)"
+    },
+    "day_363": {
+      "variable_changes": [
+        -0.0401,
+        0.048,
+        0.1395,
+        0.1105
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 rose slightly (+0.05) | F2 increased significantly (+0.14) | F3 increased significantly (+0.11)"
+    },
+    "day_364": {
+      "variable_changes": [
+        0.1551,
+        0.1477,
+        0.0626,
+        -0.0904
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 increased significantly (+0.15) | F2 increased significantly (+0.06) | F3 decreased significantly (-0.09)"
+    },
+    "day_365": {
+      "variable_changes": [
+        0.0645,
+        0.0953,
+        0.0893,
+        -0.0546
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.10) | F2 increased significantly (+0.09) | F3 decreased significantly (-0.05)"
+    },
+    "day_366": {
+      "variable_changes": [
+        0.0788,
+        -0.0513,
+        0.0766,
+        0.1965
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.05) | F2 increased significantly (+0.08) | F3 increased significantly (+0.20)"
+    },
+    "day_367": {
+      "variable_changes": [
+        -0.0912,
+        -0.0364,
+        0.0106,
+        0.1327
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 dropped slightly (-0.04) | F2 rose slightly (+0.01) | F3 increased significantly (+0.13)"
+    },
+    "day_368": {
+      "variable_changes": [
+        0.3311,
+        0.0518,
+        0.014,
+        -0.0124
+      ],
+      "news_text": "F0 increased significantly (+0.33) | F1 increased significantly (+0.05) | F2 rose slightly (+0.01) | F3 dropped slightly (-0.01)"
+    },
+    "day_369": {
+      "variable_changes": [
+        -0.183,
+        0.0022,
+        0.0175,
+        0.1398
+      ],
+      "news_text": "F0 decreased significantly (-0.18) | F1 stable (0.00) | F2 rose slightly (+0.02) | F3 increased significantly (+0.14)"
+    },
+    "day_370": {
+      "variable_changes": [
+        -0.2052,
+        -0.0063,
+        0.0236,
+        -0.1231
+      ],
+      "news_text": "F0 decreased significantly (-0.21) | F1 stable (-0.01) | F2 rose slightly (+0.02) | F3 decreased significantly (-0.12)"
+    },
+    "day_371": {
+      "variable_changes": [
+        0.1251,
+        0.0179,
+        0.0611,
+        -0.0146
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 rose slightly (+0.02) | F2 increased significantly (+0.06) | F3 dropped slightly (-0.01)"
+    },
+    "day_372": {
+      "variable_changes": [
+        -0.0329,
+        -0.1615,
+        0.0705,
+        0.1042
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.16) | F2 increased significantly (+0.07) | F3 increased significantly (+0.10)"
+    },
+    "day_373": {
+      "variable_changes": [
+        0.0607,
+        -0.0809,
+        -0.0646,
+        -0.1262
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.06) | F3 decreased significantly (-0.13)"
+    },
+    "day_374": {
+      "variable_changes": [
+        -0.0225,
+        0.1408,
+        0.0657,
+        -0.0698
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.14) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.07)"
+    },
+    "day_375": {
+      "variable_changes": [
+        -0.1474,
+        0.0255,
+        0.0461,
+        -0.0232
+      ],
+      "news_text": "F0 decreased significantly (-0.15) | F1 rose slightly (+0.03) | F2 rose slightly (+0.05) | F3 dropped slightly (-0.02)"
+    },
+    "day_376": {
+      "variable_changes": [
+        -0.0359,
+        -0.0539,
+        -0.0233,
+        -0.0978
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 decreased significantly (-0.05) | F2 dropped slightly (-0.02) | F3 decreased significantly (-0.10)"
+    },
+    "day_377": {
+      "variable_changes": [
+        0.0234,
+        0.0413,
+        0.0255,
+        0.0122
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.04) | F2 rose slightly (+0.03) | F3 rose slightly (+0.01)"
+    },
+    "day_378": {
+      "variable_changes": [
+        0.1297,
+        -0.0276,
+        0.0017,
+        0.1763
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 dropped slightly (-0.03) | F2 stable (0.00) | F3 increased significantly (+0.18)"
+    },
+    "day_379": {
+      "variable_changes": [
+        -0.1421,
+        -0.2026,
+        0.0503,
+        -0.0223
+      ],
+      "news_text": "F0 decreased significantly (-0.14) | F1 decreased significantly (-0.20) | F2 increased significantly (+0.05) | F3 dropped slightly (-0.02)"
+    },
+    "day_380": {
+      "variable_changes": [
+        0.1908,
+        0.0963,
+        0.0756,
+        0.0812
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 increased significantly (+0.10) | F2 increased significantly (+0.08) | F3 increased significantly (+0.08)"
+    },
+    "day_381": {
+      "variable_changes": [
+        -0.1024,
+        0.0098,
+        0.205,
+        -0.1252
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 stable (0.01) | F2 increased significantly (+0.21) | F3 decreased significantly (-0.13)"
+    },
+    "day_382": {
+      "variable_changes": [
+        -0.0042,
+        -0.1043,
+        0.0601,
+        0.0913
+      ],
+      "news_text": "F0 stable (-0.00) | F1 decreased significantly (-0.10) | F2 increased significantly (+0.06) | F3 increased significantly (+0.09)"
+    },
+    "day_383": {
+      "variable_changes": [
+        -0.0934,
+        -0.0014,
+        0.1349,
+        0.0081
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 stable (-0.00) | F2 increased significantly (+0.13) | F3 stable (0.01)"
+    },
+    "day_384": {
+      "variable_changes": [
+        -0.1043,
+        0.045,
+        0.1954,
+        -0.1382
+      ],
+      "news_text": "F0 decreased significantly (-0.10) | F1 rose slightly (+0.05) | F2 increased significantly (+0.20) | F3 decreased significantly (-0.14)"
+    },
+    "day_385": {
+      "variable_changes": [
+        -0.0448,
+        -0.0295,
+        0.0503,
+        0.0291
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.05) | F3 rose slightly (+0.03)"
+    },
+    "day_386": {
+      "variable_changes": [
+        0.058,
+        0.1854,
+        -0.0051,
+        -0.0842
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.19) | F2 stable (-0.01) | F3 decreased significantly (-0.08)"
+    },
+    "day_387": {
+      "variable_changes": [
+        0.0085,
+        0.1502,
+        -0.0179,
+        0.0671
+      ],
+      "news_text": "F0 stable (0.01) | F1 increased significantly (+0.15) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.07)"
+    },
+    "day_388": {
+      "variable_changes": [
+        0.014,
+        -0.0186,
+        -0.0411,
+        0.0905
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 dropped slightly (-0.02) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_389": {
+      "variable_changes": [
+        -0.0511,
+        -0.0205,
+        -0.1693,
+        -0.023
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.17) | F3 dropped slightly (-0.02)"
+    },
+    "day_390": {
+      "variable_changes": [
+        -0.0196,
+        0.0123,
+        -0.0556,
+        -0.1317
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 rose slightly (+0.01) | F2 decreased significantly (-0.06) | F3 decreased significantly (-0.13)"
+    },
+    "day_391": {
+      "variable_changes": [
+        0.0326,
+        0.0533,
+        -0.072,
+        0.0197
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.05) | F2 decreased significantly (-0.07) | F3 rose slightly (+0.02)"
+    },
+    "day_392": {
+      "variable_changes": [
+        -0.0504,
+        -0.0226,
+        0.0089,
+        -0.0597
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 dropped slightly (-0.02) | F2 stable (0.01) | F3 decreased significantly (-0.06)"
+    },
+    "day_393": {
+      "variable_changes": [
+        -0.1057,
+        0.1859,
+        -0.0214,
+        0.0174
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 increased significantly (+0.19) | F2 dropped slightly (-0.02) | F3 rose slightly (+0.02)"
+    },
+    "day_394": {
+      "variable_changes": [
+        0.126,
+        0.1067,
+        -0.1009,
+        -0.0533
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 increased significantly (+0.11) | F2 decreased significantly (-0.10) | F3 decreased significantly (-0.05)"
+    },
+    "day_395": {
+      "variable_changes": [
+        0.29,
+        0.0056,
+        0.0796,
+        0.0271
+      ],
+      "news_text": "F0 increased significantly (+0.29) | F1 stable (0.01) | F2 increased significantly (+0.08) | F3 rose slightly (+0.03)"
+    },
+    "day_396": {
+      "variable_changes": [
+        -0.025,
+        0.0029,
+        0.0248,
+        0.0318
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 stable (0.00) | F2 rose slightly (+0.02) | F3 rose slightly (+0.03)"
+    },
+    "day_397": {
+      "variable_changes": [
+        -0.2621,
+        -0.054,
+        -0.0814,
+        -0.1879
+      ],
+      "news_text": "F0 decreased significantly (-0.26) | F1 decreased significantly (-0.05) | F2 decreased significantly (-0.08) | F3 decreased significantly (-0.19)"
+    },
+    "day_398": {
+      "variable_changes": [
+        -0.0938,
+        -0.2238,
+        0.1752,
+        -0.0533
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 decreased significantly (-0.22) | F2 increased significantly (+0.18) | F3 decreased significantly (-0.05)"
+    },
+    "day_399": {
+      "variable_changes": [
+        -0.0539,
+        0.0709,
+        -0.0276,
+        0.0618
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.03) | F3 increased significantly (+0.06)"
+    },
+    "day_400": {
+      "variable_changes": [
+        -0.038,
+        -0.0128,
+        -0.039,
+        0.0834
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 dropped slightly (-0.01) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.08)"
+    },
+    "day_401": {
+      "variable_changes": [
+        -0.0592,
+        -0.2551,
+        0.0022,
+        0.0936
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 decreased significantly (-0.26) | F2 stable (0.00) | F3 increased significantly (+0.09)"
+    },
+    "day_402": {
+      "variable_changes": [
+        -0.0765,
+        -0.1107,
+        -0.0655,
+        -0.2371
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.24)"
+    },
+    "day_403": {
+      "variable_changes": [
+        -0.1081,
+        -0.0806,
+        0.0657,
+        -0.0515
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.07) | F3 decreased significantly (-0.05)"
+    },
+    "day_404": {
+      "variable_changes": [
+        0.0674,
+        -0.1403,
+        0.2436,
+        -0.0918
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 decreased significantly (-0.14) | F2 increased significantly (+0.24) | F3 decreased significantly (-0.09)"
+    },
+    "day_405": {
+      "variable_changes": [
+        -0.1087,
+        0.1271,
+        -0.1164,
+        0.0232
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 increased significantly (+0.13) | F2 decreased significantly (-0.12) | F3 rose slightly (+0.02)"
+    },
+    "day_406": {
+      "variable_changes": [
+        0.2783,
+        -0.0574,
+        -0.198,
+        0.0001
+      ],
+      "news_text": "F0 increased significantly (+0.28) | F1 decreased significantly (-0.06) | F2 decreased significantly (-0.20) | F3 stable (0.00)"
+    },
+    "day_407": {
+      "variable_changes": [
+        -0.0722,
+        -0.0982,
+        0.0467,
+        0.097
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 decreased significantly (-0.10) | F2 rose slightly (+0.05) | F3 increased significantly (+0.10)"
+    },
+    "day_408": {
+      "variable_changes": [
+        0.0365,
+        0.0302,
+        -0.1565,
+        -0.0581
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 rose slightly (+0.03) | F2 decreased significantly (-0.16) | F3 decreased significantly (-0.06)"
+    },
+    "day_409": {
+      "variable_changes": [
+        0.0757,
+        -0.117,
+        0.0397,
+        -0.0976
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.12) | F2 rose slightly (+0.04) | F3 decreased significantly (-0.10)"
+    },
+    "day_410": {
+      "variable_changes": [
+        0.0844,
+        -0.0969,
+        0.0716,
+        0.0714
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.10) | F2 increased significantly (+0.07) | F3 increased significantly (+0.07)"
+    },
+    "day_411": {
+      "variable_changes": [
+        -0.0022,
+        -0.0231,
+        -0.1313,
+        -0.1417
+      ],
+      "news_text": "F0 stable (-0.00) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.13) | F3 decreased significantly (-0.14)"
+    },
+    "day_412": {
+      "variable_changes": [
+        0.2069,
+        -0.0898,
+        -0.199,
+        0.0233
+      ],
+      "news_text": "F0 increased significantly (+0.21) | F1 decreased significantly (-0.09) | F2 decreased significantly (-0.20) | F3 rose slightly (+0.02)"
+    },
+    "day_413": {
+      "variable_changes": [
+        -0.0586,
+        0.0033,
+        -0.0086,
+        -0.1285
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 stable (0.00) | F2 stable (-0.01) | F3 decreased significantly (-0.13)"
+    },
+    "day_414": {
+      "variable_changes": [
+        -0.2113,
+        -0.0126,
+        0.1113,
+        -0.0455
+      ],
+      "news_text": "F0 decreased significantly (-0.21) | F1 dropped slightly (-0.01) | F2 increased significantly (+0.11) | F3 dropped slightly (-0.05)"
+    },
+    "day_415": {
+      "variable_changes": [
+        0.0154,
+        0.0685,
+        -0.067,
+        -0.086
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.07) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.09)"
+    },
+    "day_416": {
+      "variable_changes": [
+        -0.0649,
+        0.0795,
+        0.042,
+        0.0186
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.08) | F2 rose slightly (+0.04) | F3 rose slightly (+0.02)"
+    },
+    "day_417": {
+      "variable_changes": [
+        -0.1337,
+        0.1819,
+        -0.0009,
+        -0.0324
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 increased significantly (+0.18) | F2 stable (-0.00) | F3 dropped slightly (-0.03)"
+    },
+    "day_418": {
+      "variable_changes": [
+        0.0602,
+        0.0602,
+        -0.0181,
+        0.0594
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.02) | F3 increased significantly (+0.06)"
+    },
+    "day_419": {
+      "variable_changes": [
+        0.1886,
+        0.0519,
+        -0.0285,
+        -0.1121
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 increased significantly (+0.05) | F2 dropped slightly (-0.03) | F3 decreased significantly (-0.11)"
+    },
+    "day_420": {
+      "variable_changes": [
+        -0.1135,
+        -0.0856,
+        -0.068,
+        -0.1308
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 decreased significantly (-0.09) | F2 decreased significantly (-0.07) | F3 decreased significantly (-0.13)"
+    },
+    "day_421": {
+      "variable_changes": [
+        -0.0356,
+        -0.0214,
+        -0.1109,
+        -0.1786
+      ],
+      "news_text": "F0 dropped slightly (-0.04) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.11) | F3 decreased significantly (-0.18)"
+    },
+    "day_422": {
+      "variable_changes": [
+        0.0851,
+        0.0674,
+        -0.0388,
+        -0.0028
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 increased significantly (+0.07) | F2 dropped slightly (-0.04) | F3 stable (-0.00)"
+    },
+    "day_423": {
+      "variable_changes": [
+        0.0083,
+        0.0651,
+        0.05,
+        -0.0198
+      ],
+      "news_text": "F0 stable (0.01) | F1 increased significantly (+0.07) | F2 increased significantly (+0.05) | F3 dropped slightly (-0.02)"
+    },
+    "day_424": {
+      "variable_changes": [
+        -0.0507,
+        -0.0822,
+        0.0476,
+        0.1738
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 decreased significantly (-0.08) | F2 rose slightly (+0.05) | F3 increased significantly (+0.17)"
+    },
+    "day_425": {
+      "variable_changes": [
+        0.0041,
+        0.074,
+        0.1085,
+        -0.0099
+      ],
+      "news_text": "F0 stable (0.00) | F1 increased significantly (+0.07) | F2 increased significantly (+0.11) | F3 stable (-0.01)"
+    },
+    "day_426": {
+      "variable_changes": [
+        -0.1898,
+        -0.0706,
+        0.0968,
+        -0.023
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 decreased significantly (-0.07) | F2 increased significantly (+0.10) | F3 dropped slightly (-0.02)"
+    },
+    "day_427": {
+      "variable_changes": [
+        0.1082,
+        -0.0895,
+        0.0513,
+        -0.0785
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.09) | F2 increased significantly (+0.05) | F3 decreased significantly (-0.08)"
+    },
+    "day_428": {
+      "variable_changes": [
+        -0.0733,
+        0.0644,
+        0.0599,
+        -0.1411
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 increased significantly (+0.06) | F2 increased significantly (+0.06) | F3 decreased significantly (-0.14)"
+    },
+    "day_429": {
+      "variable_changes": [
+        0.0709,
+        0.0063,
+        0.0658,
+        0.0739
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 stable (0.01) | F2 increased significantly (+0.07) | F3 increased significantly (+0.07)"
+    },
+    "day_430": {
+      "variable_changes": [
+        0.0207,
+        0.0989,
+        -0.0446,
+        0.0919
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 increased significantly (+0.10) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_431": {
+      "variable_changes": [
+        -0.2184,
+        -0.0162,
+        -0.0636,
+        0.004
+      ],
+      "news_text": "F0 decreased significantly (-0.22) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.06) | F3 stable (0.00)"
+    },
+    "day_432": {
+      "variable_changes": [
+        0.1406,
+        0.1372,
+        0.1013,
+        0.0115
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 increased significantly (+0.14) | F2 increased significantly (+0.10) | F3 rose slightly (+0.01)"
+    },
+    "day_433": {
+      "variable_changes": [
+        -0.1868,
+        0.0313,
+        0.023,
+        -0.0502
+      ],
+      "news_text": "F0 decreased significantly (-0.19) | F1 rose slightly (+0.03) | F2 rose slightly (+0.02) | F3 decreased significantly (-0.05)"
+    },
+    "day_434": {
+      "variable_changes": [
+        -0.0504,
+        0.1702,
+        0.1149,
+        -0.0453
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 increased significantly (+0.17) | F2 increased significantly (+0.11) | F3 dropped slightly (-0.05)"
+    },
+    "day_435": {
+      "variable_changes": [
+        0.0848,
+        0.0484,
+        -0.0083,
+        -0.072
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 rose slightly (+0.05) | F2 stable (-0.01) | F3 decreased significantly (-0.07)"
+    },
+    "day_436": {
+      "variable_changes": [
+        0.0104,
+        -0.0218,
+        -0.1881,
+        -0.0055
+      ],
+      "news_text": "F0 rose slightly (+0.01) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.19) | F3 stable (-0.01)"
+    },
+    "day_437": {
+      "variable_changes": [
+        0.1663,
+        -0.1211,
+        0.0547,
+        0.0805
+      ],
+      "news_text": "F0 increased significantly (+0.17) | F1 decreased significantly (-0.12) | F2 increased significantly (+0.05) | F3 increased significantly (+0.08)"
+    },
+    "day_438": {
+      "variable_changes": [
+        -0.0551,
+        0.0653,
+        0.2061,
+        0.0432
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.07) | F2 increased significantly (+0.21) | F3 rose slightly (+0.04)"
+    },
+    "day_439": {
+      "variable_changes": [
+        0.016,
+        0.0029,
+        0.1035,
+        0.0449
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 stable (0.00) | F2 increased significantly (+0.10) | F3 rose slightly (+0.04)"
+    },
+    "day_440": {
+      "variable_changes": [
+        0.058,
+        -0.0612,
+        -0.0425,
+        0.0896
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.06) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_441": {
+      "variable_changes": [
+        0.2244,
+        0.1258,
+        0.0803,
+        -0.0779
+      ],
+      "news_text": "F0 increased significantly (+0.22) | F1 increased significantly (+0.13) | F2 increased significantly (+0.08) | F3 decreased significantly (-0.08)"
+    },
+    "day_442": {
+      "variable_changes": [
+        0.0571,
+        -0.0572,
+        0.1293,
+        -0.0465
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 decreased significantly (-0.06) | F2 increased significantly (+0.13) | F3 dropped slightly (-0.05)"
+    },
+    "day_443": {
+      "variable_changes": [
+        -0.2108,
+        0.2608,
+        0.0421,
+        -0.0178
+      ],
+      "news_text": "F0 decreased significantly (-0.21) | F1 increased significantly (+0.26) | F2 rose slightly (+0.04) | F3 dropped slightly (-0.02)"
+    },
+    "day_444": {
+      "variable_changes": [
+        0.0504,
+        -0.1664,
+        -0.0351,
+        -0.095
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 decreased significantly (-0.17) | F2 dropped slightly (-0.04) | F3 decreased significantly (-0.10)"
+    },
+    "day_445": {
+      "variable_changes": [
+        -0.0941,
+        -0.0775,
+        0.0756,
+        0.0181
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.08) | F3 rose slightly (+0.02)"
+    },
+    "day_446": {
+      "variable_changes": [
+        -0.0043,
+        -0.0635,
+        -0.0459,
+        -0.0486
+      ],
+      "news_text": "F0 stable (-0.00) | F1 decreased significantly (-0.06) | F2 dropped slightly (-0.05) | F3 dropped slightly (-0.05)"
+    },
+    "day_447": {
+      "variable_changes": [
+        0.0327,
+        0.0637,
+        0.008,
+        -0.0088
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.06) | F2 stable (0.01) | F3 stable (-0.01)"
+    },
+    "day_448": {
+      "variable_changes": [
+        0.0823,
+        0.0936,
+        -0.0366,
+        -0.0225
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 increased significantly (+0.09) | F2 dropped slightly (-0.04) | F3 dropped slightly (-0.02)"
+    },
+    "day_449": {
+      "variable_changes": [
+        0.074,
+        0.1433,
+        0.095,
+        0.0641
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 increased significantly (+0.14) | F2 increased significantly (+0.10) | F3 increased significantly (+0.06)"
+    },
+    "day_450": {
+      "variable_changes": [
+        0.0402,
+        -0.1076,
+        -0.0871,
+        0.021
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 decreased significantly (-0.11) | F2 decreased significantly (-0.09) | F3 rose slightly (+0.02)"
+    },
+    "day_451": {
+      "variable_changes": [
+        -0.0305,
+        0.0476,
+        0.0417,
+        0.0911
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 rose slightly (+0.05) | F2 rose slightly (+0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_452": {
+      "variable_changes": [
+        -0.0919,
+        0.0221,
+        -0.1623,
+        -0.0341
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.16) | F3 dropped slightly (-0.03)"
+    },
+    "day_453": {
+      "variable_changes": [
+        0.1014,
+        -0.0934,
+        -0.0171,
+        -0.1142
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 decreased significantly (-0.09) | F2 dropped slightly (-0.02) | F3 decreased significantly (-0.11)"
+    },
+    "day_454": {
+      "variable_changes": [
+        0.025,
+        0.2059,
+        -0.1279,
+        -0.0373
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 increased significantly (+0.21) | F2 decreased significantly (-0.13) | F3 dropped slightly (-0.04)"
+    },
+    "day_455": {
+      "variable_changes": [
+        0.0643,
+        0.1097,
+        0.0433,
+        0.0861
+      ],
+      "news_text": "F0 increased significantly (+0.06) | F1 increased significantly (+0.11) | F2 rose slightly (+0.04) | F3 increased significantly (+0.09)"
+    },
+    "day_456": {
+      "variable_changes": [
+        -0.0844,
+        0.0189,
+        -0.0247,
+        -0.0931
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 rose slightly (+0.02) | F2 dropped slightly (-0.02) | F3 decreased significantly (-0.09)"
+    },
+    "day_457": {
+      "variable_changes": [
+        -0.0122,
+        -0.0776,
+        -0.1042,
+        0.018
+      ],
+      "news_text": "F0 dropped slightly (-0.01) | F1 decreased significantly (-0.08) | F2 decreased significantly (-0.10) | F3 rose slightly (+0.02)"
+    },
+    "day_458": {
+      "variable_changes": [
+        0.191,
+        -0.1297,
+        -0.1188,
+        0.0256
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 decreased significantly (-0.13) | F2 decreased significantly (-0.12) | F3 rose slightly (+0.03)"
+    },
+    "day_459": {
+      "variable_changes": [
+        -0.1574,
+        -0.0777,
+        0.0506,
+        -0.0633
+      ],
+      "news_text": "F0 decreased significantly (-0.16) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.05) | F3 decreased significantly (-0.06)"
+    },
+    "day_460": {
+      "variable_changes": [
+        -0.0032,
+        0.1628,
+        0.06,
+        -0.1407
+      ],
+      "news_text": "F0 stable (-0.00) | F1 increased significantly (+0.16) | F2 increased significantly (+0.06) | F3 decreased significantly (-0.14)"
+    },
+    "day_461": {
+      "variable_changes": [
+        -0.0605,
+        0.1736,
+        -0.0099,
+        -0.1334
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 increased significantly (+0.17) | F2 stable (-0.01) | F3 decreased significantly (-0.13)"
+    },
+    "day_462": {
+      "variable_changes": [
+        0.0499,
+        0.052,
+        0.1842,
+        0.0445
+      ],
+      "news_text": "F0 rose slightly (+0.05) | F1 increased significantly (+0.05) | F2 increased significantly (+0.18) | F3 rose slightly (+0.04)"
+    },
+    "day_463": {
+      "variable_changes": [
+        0.0836,
+        0.1316,
+        -0.1584,
+        -0.0121
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 increased significantly (+0.13) | F2 decreased significantly (-0.16) | F3 dropped slightly (-0.01)"
+    },
+    "day_464": {
+      "variable_changes": [
+        -0.0241,
+        -0.0098,
+        -0.0186,
+        -0.0444
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 stable (-0.01) | F2 dropped slightly (-0.02) | F3 dropped slightly (-0.04)"
+    },
+    "day_465": {
+      "variable_changes": [
+        0.0915,
+        -0.0486,
+        0.1333,
+        -0.0976
+      ],
+      "news_text": "F0 increased significantly (+0.09) | F1 dropped slightly (-0.05) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.10)"
+    },
+    "day_466": {
+      "variable_changes": [
+        -0.0621,
+        -0.2228,
+        -0.1519,
+        0.1914
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 decreased significantly (-0.22) | F2 decreased significantly (-0.15) | F3 increased significantly (+0.19)"
+    },
+    "day_467": {
+      "variable_changes": [
+        -0.1223,
+        0.0094,
+        0.0679,
+        0.0416
+      ],
+      "news_text": "F0 decreased significantly (-0.12) | F1 stable (0.01) | F2 increased significantly (+0.07) | F3 rose slightly (+0.04)"
+    },
+    "day_468": {
+      "variable_changes": [
+        0.1404,
+        0.2375,
+        -0.0226,
+        -0.0309
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 increased significantly (+0.24) | F2 dropped slightly (-0.02) | F3 dropped slightly (-0.03)"
+    },
+    "day_469": {
+      "variable_changes": [
+        0.1051,
+        -0.067,
+        -0.1673,
+        0.0312
+      ],
+      "news_text": "F0 increased significantly (+0.11) | F1 decreased significantly (-0.07) | F2 decreased significantly (-0.17) | F3 rose slightly (+0.03)"
+    },
+    "day_470": {
+      "variable_changes": [
+        -0.068,
+        -0.0481,
+        -0.0653,
+        -0.0263
+      ],
+      "news_text": "F0 decreased significantly (-0.07) | F1 dropped slightly (-0.05) | F2 decreased significantly (-0.07) | F3 dropped slightly (-0.03)"
+    },
+    "day_471": {
+      "variable_changes": [
+        0.0263,
+        -0.0947,
+        0.3013,
+        -0.2306
+      ],
+      "news_text": "F0 rose slightly (+0.03) | F1 decreased significantly (-0.09) | F2 increased significantly (+0.30) | F3 decreased significantly (-0.23)"
+    },
+    "day_472": {
+      "variable_changes": [
+        0.1326,
+        -0.0313,
+        -0.0732,
+        -0.024
+      ],
+      "news_text": "F0 increased significantly (+0.13) | F1 dropped slightly (-0.03) | F2 decreased significantly (-0.07) | F3 dropped slightly (-0.02)"
+    },
+    "day_473": {
+      "variable_changes": [
+        0.0984,
+        -0.0396,
+        -0.0135,
+        -0.0252
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 dropped slightly (-0.04) | F2 dropped slightly (-0.01) | F3 dropped slightly (-0.03)"
+    },
+    "day_474": {
+      "variable_changes": [
+        -0.0879,
+        0.11,
+        0.0651,
+        0.0197
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 increased significantly (+0.11) | F2 increased significantly (+0.07) | F3 rose slightly (+0.02)"
+    },
+    "day_475": {
+      "variable_changes": [
+        0.1015,
+        0.0931,
+        0.03,
+        -0.0236
+      ],
+      "news_text": "F0 increased significantly (+0.10) | F1 increased significantly (+0.09) | F2 rose slightly (+0.03) | F3 dropped slightly (-0.02)"
+    },
+    "day_476": {
+      "variable_changes": [
+        -0.0014,
+        0.0546,
+        0.1199,
+        0.0014
+      ],
+      "news_text": "F0 stable (-0.00) | F1 increased significantly (+0.05) | F2 increased significantly (+0.12) | F3 stable (0.00)"
+    },
+    "day_477": {
+      "variable_changes": [
+        0.0721,
+        0.0619,
+        -0.1495,
+        -0.1313
+      ],
+      "news_text": "F0 increased significantly (+0.07) | F1 increased significantly (+0.06) | F2 decreased significantly (-0.15) | F3 decreased significantly (-0.13)"
+    },
+    "day_478": {
+      "variable_changes": [
+        0.1377,
+        -0.0354,
+        -0.0903,
+        0.1474
+      ],
+      "news_text": "F0 increased significantly (+0.14) | F1 dropped slightly (-0.04) | F2 decreased significantly (-0.09) | F3 increased significantly (+0.15)"
+    },
+    "day_479": {
+      "variable_changes": [
+        -0.1375,
+        0.1238,
+        0.0682,
+        0.0276
+      ],
+      "news_text": "F0 decreased significantly (-0.14) | F1 increased significantly (+0.12) | F2 increased significantly (+0.07) | F3 rose slightly (+0.03)"
+    },
+    "day_480": {
+      "variable_changes": [
+        -0.0924,
+        0.076,
+        -0.0764,
+        0.0541
+      ],
+      "news_text": "F0 decreased significantly (-0.09) | F1 increased significantly (+0.08) | F2 decreased significantly (-0.08) | F3 increased significantly (+0.05)"
+    },
+    "day_481": {
+      "variable_changes": [
+        0.0194,
+        0.0216,
+        -0.0947,
+        -0.132
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.09) | F3 decreased significantly (-0.13)"
+    },
+    "day_482": {
+      "variable_changes": [
+        -0.0249,
+        0.0586,
+        -0.0382,
+        -0.1481
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 increased significantly (+0.06) | F2 dropped slightly (-0.04) | F3 decreased significantly (-0.15)"
+    },
+    "day_483": {
+      "variable_changes": [
+        0.0404,
+        0.0105,
+        0.0063,
+        -0.0091
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 rose slightly (+0.01) | F2 stable (0.01) | F3 stable (-0.01)"
+    },
+    "day_484": {
+      "variable_changes": [
+        -0.1295,
+        -0.0715,
+        -0.0143,
+        0.0767
+      ],
+      "news_text": "F0 decreased significantly (-0.13) | F1 decreased significantly (-0.07) | F2 dropped slightly (-0.01) | F3 increased significantly (+0.08)"
+    },
+    "day_485": {
+      "variable_changes": [
+        0.0237,
+        0.0174,
+        0.2109,
+        0.0295
+      ],
+      "news_text": "F0 rose slightly (+0.02) | F1 rose slightly (+0.02) | F2 increased significantly (+0.21) | F3 rose slightly (+0.03)"
+    },
+    "day_486": {
+      "variable_changes": [
+        -0.0781,
+        0.0204,
+        -0.2629,
+        -0.0066
+      ],
+      "news_text": "F0 decreased significantly (-0.08) | F1 rose slightly (+0.02) | F2 decreased significantly (-0.26) | F3 stable (-0.01)"
+    },
+    "day_487": {
+      "variable_changes": [
+        -0.0205,
+        -0.1572,
+        -0.1549,
+        0.0731
+      ],
+      "news_text": "F0 dropped slightly (-0.02) | F1 decreased significantly (-0.16) | F2 decreased significantly (-0.15) | F3 increased significantly (+0.07)"
+    },
+    "day_488": {
+      "variable_changes": [
+        -0.0293,
+        -0.0555,
+        0.0572,
+        0.0274
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.06) | F2 increased significantly (+0.06) | F3 rose slightly (+0.03)"
+    },
+    "day_489": {
+      "variable_changes": [
+        0.0753,
+        -0.0588,
+        0.0122,
+        0.2064
+      ],
+      "news_text": "F0 increased significantly (+0.08) | F1 decreased significantly (-0.06) | F2 rose slightly (+0.01) | F3 increased significantly (+0.21)"
+    },
+    "day_490": {
+      "variable_changes": [
+        0.0411,
+        -0.032,
+        0.0792,
+        0.0658
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.08) | F3 increased significantly (+0.07)"
+    },
+    "day_491": {
+      "variable_changes": [
+        0.1933,
+        -0.0188,
+        0.0272,
+        0.0906
+      ],
+      "news_text": "F0 increased significantly (+0.19) | F1 dropped slightly (-0.02) | F2 rose slightly (+0.03) | F3 increased significantly (+0.09)"
+    },
+    "day_492": {
+      "variable_changes": [
+        0.0448,
+        -0.0321,
+        0.1288,
+        -0.2062
+      ],
+      "news_text": "F0 rose slightly (+0.04) | F1 dropped slightly (-0.03) | F2 increased significantly (+0.13) | F3 decreased significantly (-0.21)"
+    },
+    "day_493": {
+      "variable_changes": [
+        0.0099,
+        0.032,
+        -0.1251,
+        0.043
+      ],
+      "news_text": "F0 stable (0.01) | F1 rose slightly (+0.03) | F2 decreased significantly (-0.13) | F3 rose slightly (+0.04)"
+    },
+    "day_494": {
+      "variable_changes": [
+        -0.0319,
+        -0.0742,
+        -0.0405,
+        0.1765
+      ],
+      "news_text": "F0 dropped slightly (-0.03) | F1 decreased significantly (-0.07) | F2 dropped slightly (-0.04) | F3 increased significantly (+0.18)"
+    },
+    "day_495": {
+      "variable_changes": [
+        0.0535,
+        -0.2114,
+        0.0424,
+        0.0085
+      ],
+      "news_text": "F0 increased significantly (+0.05) | F1 decreased significantly (-0.21) | F2 rose slightly (+0.04) | F3 stable (0.01)"
+    },
+    "day_496": {
+      "variable_changes": [
+        -0.0527,
+        -0.0163,
+        -0.0941,
+        0.0395
+      ],
+      "news_text": "F0 decreased significantly (-0.05) | F1 dropped slightly (-0.02) | F2 decreased significantly (-0.09) | F3 rose slightly (+0.04)"
+    },
+    "day_497": {
+      "variable_changes": [
+        -0.0568,
+        -0.0291,
+        -0.1034,
+        0.148
+      ],
+      "news_text": "F0 decreased significantly (-0.06) | F1 dropped slightly (-0.03) | F2 decreased significantly (-0.10) | F3 increased significantly (+0.15)"
+    },
+    "day_498": {
+      "variable_changes": [
+        -0.2424,
+        -0.033,
+        -0.3071,
+        0.0228
+      ],
+      "news_text": "F0 decreased significantly (-0.24) | F1 dropped slightly (-0.03) | F2 decreased significantly (-0.31) | F3 rose slightly (+0.02)"
+    },
+    "day_499": {
+      "variable_changes": [
+        -0.1106,
+        0.0383,
+        -0.0752,
+        0.1885
+      ],
+      "news_text": "F0 decreased significantly (-0.11) | F1 rose slightly (+0.04) | F2 decreased significantly (-0.08) | F3 increased significantly (+0.19)"
+    },
+    "day_500": {
+      "variable_changes": [
+        0.1577,
+        -0.0782,
+        0.125,
+        0.0595
+      ],
+      "news_text": "F0 increased significantly (+0.16) | F1 decreased significantly (-0.08) | F2 increased significantly (+0.13) | F3 increased significantly (+0.06)"
+    }
+  }
+}

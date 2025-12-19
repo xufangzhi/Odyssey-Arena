@@ -1,0 +1,1476 @@
+[
+    {
+        "level": 6,
+        "custom_logic": {
+            "B3": "True",
+            "B1": "B3",
+            "B4": "not B1",
+            "B2": "((B4 and B1) and B3)",
+            "B0": "(((not B3 and B2) and not B1) or not B4)",
+            "B5": "(((not B3 or not B2) or not B4) and B0)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B3": "True",
+            "B1": "B3",
+            "B4": "not B1",
+            "B2": "((B4 and B1) and B3)",
+            "B0": "(((not B3 and B2) and not B1) or not B4)",
+            "B5": "(((not B3 or not B2) or not B4) and B0)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B1": "True",
+            "B4": "B1",
+            "B3": "(B4 and B1)",
+            "B2": "(B4 and B3)",
+            "B0": "not B1",
+            "B5": "((((not B1 and B0) and not B2) and not B4) and B3)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B1": "True",
+            "B0": "not B1",
+            "B3": "B1",
+            "B5": "((not B3 or not B1) and not B0)",
+            "B4": "((not B0 or not B3) and not B1)",
+            "B2": "(B5 and not B4)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B5": "True",
+            "B3": "not B5",
+            "B1": "(not B3 and not B5)",
+            "B4": "(B1 or B5)",
+            "B0": "(((not B1 or not B3) or not B4) or B5)",
+            "B2": "(B3 and not B1)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B5": "True",
+            "B3": "B5",
+            "B1": "(not B5 and not B3)",
+            "B0": "((B3 or not B1) and not B5)",
+            "B2": "(not B0 and B3)",
+            "B4": "(B5 and B2)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B0": "True",
+            "B3": "B0",
+            "B1": "not B0",
+            "B2": "(B1 and not B3)",
+            "B4": "(((not B1 or not B2) and B0) and not B3)",
+            "B5": "(not B1 or not B4)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "not B5",
+            "B3": "B5",
+            "B0": "(not B5 and not B3)",
+            "B4": "B1",
+            "B2": "(((B1 and not B0) or B5) and B3)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B2": "True",
+            "B5": "not B2",
+            "B3": "(B2 and not B5)",
+            "B1": "((not B3 or not B2) and B5)",
+            "B4": "not B5",
+            "B0": "(not B5 and B4)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B1": "True",
+            "B3": "not B1",
+            "B0": "(not B1 and B3)",
+            "B4": "(B1 or B0)",
+            "B2": "(((B4 or B0) and B3) and not B1)",
+            "B5": "B3"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B4": "True",
+            "B2": "not B4",
+            "B1": "(B4 and B2)",
+            "B3": "(not B2 or not B1)",
+            "B5": "((B2 and B4) and not B1)",
+            "B0": "((((B4 and B3) and not B5) or not B1) and not B2)"
+        }
+    },
+    {
+        "level": 6,
+        "custom_logic": {
+            "B1": "True",
+            "B4": "B1",
+            "B5": "(B1 and B4)",
+            "B3": "not B5",
+            "B0": "((B4 or not B1) and B3)",
+            "B2": "((not B5 and B1) and B4)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B2": "True",
+            "B6": "B2",
+            "B4": "B6",
+            "B3": "((B4 and not B6) and not B2)",
+            "B0": "B3",
+            "B1": "(not B2 or not B4)",
+            "B5": "(((B3 or B6) and B1) or not B4)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B0": "True",
+            "B4": "not B0",
+            "B3": "not B0",
+            "B6": "(not B4 and B3)",
+            "B2": "(((not B4 or B3) or B0) and not B6)",
+            "B1": "(((B2 and B4) or B6) or not B0)",
+            "B5": "((((B3 and not B1) or not B4) and B6) and B2)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B5": "True",
+            "B4": "B5",
+            "B1": "B4",
+            "B6": "B5",
+            "B2": "(((B6 or B1) and not B5) or B4)",
+            "B0": "((not B2 and B6) or not B4)",
+            "B3": "((B5 and not B6) and B1)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B1": "True",
+            "B3": "not B1",
+            "B5": "(B1 and B3)",
+            "B0": "((B3 or not B1) and not B5)",
+            "B6": "(not B0 and B5)",
+            "B4": "((((not B0 and B5) and B6) and B1) or B3)",
+            "B2": "(B4 and not B1)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "not B5",
+            "B3": "(not B5 or not B1)",
+            "B2": "((B3 and B5) and not B1)",
+            "B6": "((B3 or B2) or B5)",
+            "B0": "not B1",
+            "B4": "((((not B3 and B5) or B1) and B6) and not B0)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B3": "True",
+            "B5": "not B3",
+            "B6": "(B5 and not B3)",
+            "B4": "not B6",
+            "B2": "((B4 and not B5) and B6)",
+            "B0": "((B5 and B6) or not B2)",
+            "B1": "((((not B5 or B6) or not B4) and B0) and B3)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B6": "True",
+            "B4": "not B6",
+            "B3": "B6",
+            "B5": "not B6",
+            "B2": "(((B5 and not B6) and not B4) and B3)",
+            "B0": "((not B3 or B2) or not B6)",
+            "B1": "not B0"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B4": "True",
+            "B5": "B4",
+            "B1": "(B4 or B5)",
+            "B2": "not B1",
+            "B6": "((B1 and not B5) and B4)",
+            "B0": "((B1 or not B2) and not B6)",
+            "B3": "(((B6 or B1) and B4) and not B0)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B0": "True",
+            "B5": "not B0",
+            "B2": "(not B0 or B5)",
+            "B6": "not B2",
+            "B4": "((not B0 and B2) and B5)",
+            "B3": "(B4 and not B0)",
+            "B1": "B6"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B1": "True",
+            "B3": "B1",
+            "B2": "not B3",
+            "B4": "((B3 and not B2) or not B1)",
+            "B0": "((B3 and not B2) and B4)",
+            "B5": "(((not B1 and not B3) and not B0) and B2)",
+            "B6": "(((not B2 and not B4) or B5) and not B1)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B3": "True",
+            "B5": "B3",
+            "B0": "not B3",
+            "B2": "B3",
+            "B4": "B2",
+            "B6": "((not B3 and not B0) and not B4)",
+            "B1": "((((B5 or not B0) and B2) and not B6) and B3)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B4": "True",
+            "B2": "not B4",
+            "B3": "not B4",
+            "B1": "((B4 or B3) and B2)",
+            "B0": "(((not B4 or B2) or B1) and B3)",
+            "B6": "not B1",
+            "B5": "(((B2 and B6) and B4) and not B3)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B4": "True",
+            "B3": "not B4",
+            "B1": "B3",
+            "B0": "(B4 or B3)",
+            "B5": "(not B4 and B1)",
+            "B6": "(((not B1 and not B0) and not B4) and B3)",
+            "B2": "not B1"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B5": "True",
+            "B2": "not B5",
+            "B4": "not B5",
+            "B1": "((not B2 and not B5) and B4)",
+            "B3": "(((not B2 or not B4) or B5) and B1)",
+            "B0": "(((not B4 and B1) and B2) or not B5)",
+            "B6": "(((B2 and B5) or not B3) and not B4)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B0": "True",
+            "B2": "B0",
+            "B3": "(B0 and not B2)",
+            "B5": "((not B2 or not B0) or not B3)",
+            "B1": "((B3 and B5) and B0)",
+            "B4": "(not B0 or not B5)",
+            "B6": "((not B2 and B0) or not B1)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B0": "True",
+            "B1": "B0",
+            "B2": "(B1 and not B0)",
+            "B5": "(B0 and B1)",
+            "B6": "(not B5 and B2)",
+            "B3": "((((B1 and B0) and B2) and B5) and B6)",
+            "B4": "(((((B1 and B3) and not B6) and not B2) or B5) or B0)"
+        }
+    },
+    {
+        "level": 7,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "not B5",
+            "B4": "not B5",
+            "B2": "(not B5 and B1)",
+            "B3": "(((B5 or B4) and B2) and not B1)",
+            "B6": "(((B4 and B2) or B3) and not B5)",
+            "B0": "(((not B1 or B6) and B3) and not B5)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B2": "not B5",
+            "B0": "(not B2 or B5)",
+            "B3": "(not B0 and not B5)",
+            "B6": "((not B3 or not B0) and not B5)",
+            "B4": "(not B3 and not B5)",
+            "B7": "((B0 and not B4) or B6)",
+            "B1": "(not B3 or not B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B6": "not B5",
+            "B1": "B5",
+            "B3": "((B1 and not B6) or B5)",
+            "B0": "not B3",
+            "B2": "(not B1 and B0)",
+            "B4": "((((not B2 or B5) and B0) and B1) and not B6)",
+            "B7": "((((((not B2 or not B4) or not B0) or B6) or not B1) or B5) and not B3)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "not B5",
+            "B2": "(B1 and B5)",
+            "B6": "not B5",
+            "B7": "B2",
+            "B0": "(not B2 and not B5)",
+            "B4": "((((not B6 or not B5) and not B2) and B0) or B1)",
+            "B3": "((B1 and not B4) and not B7)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "B5",
+            "B6": "(B1 or not B5)",
+            "B4": "((B5 and B1) or not B6)",
+            "B7": "(B1 and B4)",
+            "B2": "((not B7 or not B1) and not B6)",
+            "B0": "(((B1 and B5) and not B4) or B2)",
+            "B3": "((((not B4 and not B5) and not B6) and B0) and B1)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B3": "True",
+            "B2": "B3",
+            "B5": "(B2 and B3)",
+            "B4": "(not B3 and not B5)",
+            "B1": "(not B2 and not B3)",
+            "B6": "not B1",
+            "B7": "((B1 and not B2) or not B3)",
+            "B0": "(B7 or not B5)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B6": "not B0",
+            "B2": "B6",
+            "B4": "((B0 or B2) and B6)",
+            "B3": "(B2 and B0)",
+            "B1": "((((B4 or B0) and B6) and B3) or B2)",
+            "B5": "((((not B3 or B4) and not B0) and B6) and B1)",
+            "B7": "((((((not B1 and not B0) and B2) and B5) and not B3) and B6) and not B4)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B4": "True",
+            "B2": "B4",
+            "B5": "(not B4 and B2)",
+            "B1": "((B5 or B4) and B2)",
+            "B6": "(((B5 and not B4) or not B1) or B2)",
+            "B7": "not B6",
+            "B3": "((not B1 or not B7) or not B5)",
+            "B0": "(((((not B5 or B3) or B4) or B6) or B2) and not B7)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B2": "not B0",
+            "B5": "(not B2 and not B0)",
+            "B4": "not B5",
+            "B7": "B5",
+            "B6": "((B4 and not B7) and B5)",
+            "B1": "(((B5 and not B7) and B2) and B4)",
+            "B3": "(((((not B7 or not B6) and not B5) or not B0) or B4) and not B1)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B6": "True",
+            "B0": "B6",
+            "B3": "(not B6 and not B0)",
+            "B5": "((not B0 and B6) or B3)",
+            "B2": "(not B3 and B6)",
+            "B4": "((B3 or not B0) and B2)",
+            "B1": "(((B2 and B3) and B6) and not B5)",
+            "B7": "(((B0 or B2) or B3) and B4)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B7": "True",
+            "B3": "not B7",
+            "B1": "not B3",
+            "B5": "((B7 and B1) and B3)",
+            "B4": "not B3",
+            "B0": "(not B1 or B4)",
+            "B2": "(not B7 and B5)",
+            "B6": "(((not B1 and not B0) and B5) or not B3)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B2": "True",
+            "B6": "B2",
+            "B5": "not B6",
+            "B1": "not B2",
+            "B4": "not B1",
+            "B7": "((((B2 and not B1) and B5) or not B4) and B6)",
+            "B3": "not B2",
+            "B0": "(((B7 and B5) or not B1) and B4)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B3": "True",
+            "B6": "not B3",
+            "B4": "(B3 or not B6)",
+            "B2": "B6",
+            "B1": "(((B3 or B6) or B2) and not B4)",
+            "B5": "((not B4 and B2) or not B6)",
+            "B7": "not B3",
+            "B0": "(((not B1 and B7) or not B3) and B2)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B0": "B5",
+            "B1": "B5",
+            "B2": "not B5",
+            "B4": "not B5",
+            "B7": "not B5",
+            "B6": "((not B1 and B2) and B0)",
+            "B3": "(((B0 or B7) and B2) and not B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B2": "B5",
+            "B6": "(B5 and not B2)",
+            "B1": "((B5 and B6) or B2)",
+            "B7": "not B6",
+            "B0": "((not B6 and B2) or not B1)",
+            "B4": "(not B1 or not B2)",
+            "B3": "((((((B4 and B5) and B0) or B7) or B2) and not B1) and B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B4": "True",
+            "B6": "not B4",
+            "B2": "(not B6 and not B4)",
+            "B7": "B4",
+            "B3": "not B2",
+            "B1": "(((not B7 or B3) and not B2) or not B6)",
+            "B5": "(B2 and not B6)",
+            "B0": "(((not B3 or not B7) or not B6) and not B1)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B4": "B5",
+            "B1": "not B4",
+            "B3": "not B4",
+            "B6": "((not B5 or not B1) or not B3)",
+            "B2": "((((not B4 or not B6) and not B5) and not B1) or B3)",
+            "B0": "((((not B2 or B1) or not B3) or not B6) and B5)",
+            "B7": "((((((not B3 or B6) and B4) or B1) and B0) and not B2) and not B5)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B4": "True",
+            "B0": "B4",
+            "B2": "not B0",
+            "B7": "(not B0 or not B4)",
+            "B6": "(B0 and B2)",
+            "B5": "(B0 and B6)",
+            "B1": "(B4 and B0)",
+            "B3": "(((((B2 or not B1) and not B7) and B0) and not B5) and B4)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B1": "True",
+            "B2": "not B1",
+            "B5": "B1",
+            "B3": "((not B5 or not B1) and not B2)",
+            "B6": "((not B1 and B5) and B2)",
+            "B7": "((not B6 and not B3) and not B1)",
+            "B0": "B7",
+            "B4": "((((B1 or not B3) and not B0) and B7) or not B2)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B4": "not B0",
+            "B3": "(B0 or not B4)",
+            "B7": "((not B3 or B0) and not B4)",
+            "B2": "((not B7 or B4) and not B3)",
+            "B5": "((((B3 or B4) and B0) and not B2) or B7)",
+            "B6": "(not B3 and not B5)",
+            "B1": "(not B5 and B3)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B3": "not B0",
+            "B6": "not B3",
+            "B7": "((B0 or B6) or B3)",
+            "B2": "(((not B6 or not B7) and B0) or B3)",
+            "B1": "((B7 and not B2) and not B0)",
+            "B4": "(((not B7 and not B0) and not B6) and not B3)",
+            "B5": "((not B2 or B0) and B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B0": "B5",
+            "B3": "(B0 or B5)",
+            "B7": "(B0 and B3)",
+            "B1": "(B0 or B5)",
+            "B6": "not B3",
+            "B2": "(B0 and B5)",
+            "B4": "((((B2 or not B1) and not B3) and B0) and not B7)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B7": "not B0",
+            "B5": "not B0",
+            "B1": "((B0 and not B7) or not B5)",
+            "B3": "B5",
+            "B6": "B3",
+            "B4": "(B3 or B7)",
+            "B2": "(((((not B5 or not B7) and not B4) and not B0) and B3) and not B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B0": "B5",
+            "B6": "not B0",
+            "B3": "(B5 or not B0)",
+            "B4": "B6",
+            "B2": "((not B3 or not B5) and not B6)",
+            "B7": "(not B5 and B0)",
+            "B1": "(((((not B4 or B7) or B2) or not B5) and not B0) or B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B3": "True",
+            "B1": "not B3",
+            "B4": "(not B3 and B1)",
+            "B0": "B4",
+            "B2": "(((B3 and not B1) and B0) and B4)",
+            "B6": "(not B3 or B1)",
+            "B5": "B3",
+            "B7": "(((not B6 and not B1) or B0) or B2)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B3": "True",
+            "B4": "not B3",
+            "B2": "B4",
+            "B6": "((B3 or not B2) and B4)",
+            "B5": "((B6 and not B2) or B4)",
+            "B1": "((((not B4 or not B2) or not B5) and not B6) or not B3)",
+            "B0": "(B5 and not B6)",
+            "B7": "(B4 and B3)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B2": "True",
+            "B6": "not B2",
+            "B3": "not B2",
+            "B7": "(B2 or B6)",
+            "B0": "(not B3 or not B7)",
+            "B4": "((B7 or not B3) and B2)",
+            "B1": "(((not B3 and B4) and not B7) and not B6)",
+            "B5": "((((((not B2 or not B3) and not B1) or B7) or B4) and B0) or not B6)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B4": "B5",
+            "B1": "(not B4 or B5)",
+            "B0": "((B5 or B1) or not B4)",
+            "B7": "((B0 or not B1) or B4)",
+            "B2": "((((B5 and not B4) and B1) and B7) and not B0)",
+            "B3": "((not B1 and B0) and not B5)",
+            "B6": "((B7 or not B4) and not B0)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B5": "True",
+            "B3": "B5",
+            "B6": "not B3",
+            "B2": "(B3 or not B6)",
+            "B0": "(((not B6 and B3) and not B2) and B5)",
+            "B1": "(B6 or not B5)",
+            "B7": "(not B1 or not B5)",
+            "B4": "B0"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B7": "True",
+            "B4": "not B7",
+            "B1": "(not B7 and B4)",
+            "B6": "(B7 and B4)",
+            "B5": "(not B7 or not B4)",
+            "B2": "((((not B4 or not B5) or B1) and not B7) and B6)",
+            "B3": "(((((not B4 or not B1) and not B2) or B5) or B7) and not B6)",
+            "B0": "((((((B3 and B5) and B1) or B6) or not B2) and B4) or B7)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B3": "True",
+            "B6": "B3",
+            "B5": "(not B3 or not B6)",
+            "B7": "((B3 or not B5) and B6)",
+            "B0": "(B3 and B6)",
+            "B2": "((B0 or not B7) and not B5)",
+            "B1": "((not B3 or not B7) and not B6)",
+            "B4": "((((((not B3 or B5) and B6) or B2) and B0) and B1) or not B7)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B6": "B0",
+            "B7": "(not B0 and B6)",
+            "B1": "(not B6 and not B7)",
+            "B2": "(B1 or not B6)",
+            "B4": "((not B1 or not B6) and B0)",
+            "B5": "(B1 and not B2)",
+            "B3": "((((((B5 or not B7) and not B1) and not B4) and not B0) or not B6) and not B2)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B0": "True",
+            "B3": "not B0",
+            "B7": "B3",
+            "B5": "not B3",
+            "B6": "(not B5 and B7)",
+            "B1": "(B5 and B6)",
+            "B4": "(((B6 or B1) or B7) and not B0)",
+            "B2": "((((((not B5 and not B7) or not B3) or B1) or B4) or B6) or not B0)"
+        }
+    },
+    {
+        "level": 8,
+        "custom_logic": {
+            "B7": "True",
+            "B0": "not B7",
+            "B2": "not B7",
+            "B1": "(B7 and not B2)",
+            "B3": "((B2 or not B0) or B1)",
+            "B5": "not B3",
+            "B4": "(((B3 and B2) and B0) or B5)",
+            "B6": "(((((not B1 and B5) or B2) or B4) and B7) or B0)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B4": "True",
+            "B6": "not B4",
+            "B8": "not B4",
+            "B7": "B6",
+            "B0": "(((B8 or B6) or B4) and not B7)",
+            "B5": "(((B7 and not B6) and not B8) and not B4)",
+            "B1": "(((not B6 or not B7) and B0) or B4)",
+            "B3": "((((B0 or B4) and B6) and B5) or B8)",
+            "B2": "(((B3 and not B0) or not B8) or not B7)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B7": "True",
+            "B1": "not B7",
+            "B4": "(B7 and B1)",
+            "B0": "((not B7 or not B1) or B4)",
+            "B6": "((B7 and not B0) and not B1)",
+            "B2": "(B1 and not B0)",
+            "B3": "(((not B4 and B6) or B0) or not B7)",
+            "B5": "((B1 and not B6) or B2)",
+            "B8": "((((((B5 or B7) and B1) or not B3) or not B4) or not B0) and B2)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B8": "True",
+            "B2": "not B8",
+            "B0": "not B8",
+            "B1": "B2",
+            "B5": "not B2",
+            "B4": "((((not B5 and not B0) or not B2) and not B1) or B8)",
+            "B6": "not B1",
+            "B7": "((B8 and B1) or not B0)",
+            "B3": "(((((((not B6 and B5) or not B7) and B8) and B0) and B2) and B1) and B4)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B4": "True",
+            "B1": "B4",
+            "B6": "(not B4 and B1)",
+            "B2": "not B1",
+            "B0": "(not B4 or B2)",
+            "B3": "((((B1 or not B0) or not B2) and not B6) and B4)",
+            "B7": "((B0 or not B2) and not B4)",
+            "B8": "((((((not B2 or B7) and not B0) and B6) and B4) or B3) and B1)",
+            "B5": "(((((B8 and not B3) or B0) or B7) or not B1) or not B6)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B6": "True",
+            "B1": "not B6",
+            "B5": "(B6 and not B1)",
+            "B3": "not B5",
+            "B8": "not B1",
+            "B2": "((((not B3 and B1) and not B8) or not B6) and not B5)",
+            "B4": "(((((B5 or not B2) and not B3) or not B1) and not B6) and B8)",
+            "B0": "(((B4 or B1) or not B8) and not B5)",
+            "B7": "not B2"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B5": "True",
+            "B7": "B5",
+            "B4": "not B5",
+            "B8": "((B4 or B7) or not B5)",
+            "B1": "(not B4 or not B8)",
+            "B6": "((B4 and not B7) and B5)",
+            "B2": "(((((not B5 and not B6) and not B7) and B1) and not B4) and B8)",
+            "B0": "((((not B6 and not B8) and B4) and not B7) or B1)",
+            "B3": "((not B4 or B7) or not B8)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B2": "True",
+            "B7": "not B2",
+            "B8": "(B7 or B2)",
+            "B0": "(B7 or not B2)",
+            "B4": "(((not B2 and not B7) or not B0) or not B8)",
+            "B3": "((not B2 or not B8) and B0)",
+            "B6": "(((B4 and not B8) or not B7) and B2)",
+            "B1": "(((not B4 and not B2) or not B8) and not B7)",
+            "B5": "((((((not B0 or not B7) or not B8) and B3) and B4) or B1) or B2)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B4": "True",
+            "B3": "B4",
+            "B8": "(B3 and not B4)",
+            "B2": "not B8",
+            "B5": "((B8 and not B4) or not B3)",
+            "B6": "((((not B5 and not B8) and not B2) and B4) and not B3)",
+            "B0": "(((not B3 and not B4) or B6) or not B8)",
+            "B7": "((not B3 or B6) and B4)",
+            "B1": "((((B8 and not B2) or not B5) or not B4) or B0)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B0": "True",
+            "B7": "B0",
+            "B4": "B7",
+            "B6": "(B4 and B7)",
+            "B2": "not B6",
+            "B5": "((B0 or B4) or B6)",
+            "B8": "((((B7 or not B6) and not B5) and not B2) or B4)",
+            "B1": "(((((not B6 and B7) and not B2) or not B4) and not B8) or B0)",
+            "B3": "(((B0 and B5) and not B7) and not B6)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B4": "True",
+            "B7": "not B4",
+            "B0": "B4",
+            "B2": "not B0",
+            "B3": "(((B4 and not B2) and B0) and not B7)",
+            "B1": "(not B4 or not B7)",
+            "B5": "((((not B2 or not B1) or B0) and not B4) or not B7)",
+            "B8": "(((B1 and B7) or not B3) or not B0)",
+            "B6": "(((((B4 and B5) or B0) and B7) and not B8) and not B1)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B7": "True",
+            "B2": "not B7",
+            "B8": "(B2 and B7)",
+            "B3": "(B7 or not B2)",
+            "B4": "B8",
+            "B5": "(not B8 and not B4)",
+            "B1": "B7",
+            "B0": "(((not B4 or not B1) and B7) or B5)",
+            "B6": "((not B2 and not B3) and not B8)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B3": "True",
+            "B1": "not B3",
+            "B2": "not B1",
+            "B7": "(not B1 and B3)",
+            "B4": "(((not B2 or not B3) or not B7) and not B1)",
+            "B6": "(((B2 or B4) and not B1) or not B7)",
+            "B0": "(not B4 and not B2)",
+            "B8": "((((B2 or B0) or B1) or B3) or not B4)",
+            "B5": "(((B1 or not B4) and not B0) and not B3)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B7": "True",
+            "B2": "B7",
+            "B5": "(not B7 and B2)",
+            "B6": "((not B5 or B7) or B2)",
+            "B4": "((B6 and not B5) and B2)",
+            "B0": "((B7 and B4) or B2)",
+            "B3": "((not B2 and B0) or B6)",
+            "B8": "((((((B2 or not B5) or not B6) and B4) and B3) and B7) or not B0)",
+            "B1": "not B7"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B7": "True",
+            "B0": "not B7",
+            "B4": "not B0",
+            "B5": "((B7 or not B4) and not B0)",
+            "B3": "((B0 or not B4) or not B7)",
+            "B8": "((((not B3 or B4) or not B5) and B0) and B7)",
+            "B6": "((B5 and not B4) and B7)",
+            "B1": "(B3 or B7)",
+            "B2": "((((not B0 and B5) or not B8) or not B4) and not B3)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B4": "True",
+            "B2": "not B4",
+            "B5": "not B4",
+            "B1": "B5",
+            "B8": "((not B5 or B2) and not B1)",
+            "B7": "((((not B4 or B1) or B5) and B8) and B2)",
+            "B3": "(B2 and not B1)",
+            "B6": "((((((not B8 and B3) and not B7) and not B5) and B2) or B4) and not B1)",
+            "B0": "(((B4 and not B6) or B7) and not B2)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B1": "True",
+            "B4": "B1",
+            "B2": "(not B1 or B4)",
+            "B8": "(not B4 or not B2)",
+            "B5": "(((not B1 or not B8) and B4) and B2)",
+            "B3": "((((B5 or B4) and not B2) and B8) and not B1)",
+            "B6": "((((B1 or not B5) and B2) or B4) or not B3)",
+            "B7": "((((((B8 or not B2) and B3) and B1) and not B6) or B4) and not B5)",
+            "B0": "(((((not B5 or not B3) or B4) or not B7) or B6) and not B2)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B0": "True",
+            "B5": "not B0",
+            "B4": "(not B0 and not B5)",
+            "B3": "(B5 and not B4)",
+            "B6": "((B5 or B0) and not B3)",
+            "B8": "(B0 and B4)",
+            "B2": "(((B0 or not B3) and B8) and not B5)",
+            "B1": "(((((not B0 and not B6) and not B5) or B8) and not B3) or not B4)",
+            "B7": "(B2 and not B4)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B0": "True",
+            "B2": "not B0",
+            "B7": "not B2",
+            "B4": "not B2",
+            "B5": "((B7 or B4) or not B0)",
+            "B3": "(not B7 or not B0)",
+            "B6": "(((((B5 or B4) and not B2) or B7) and B3) or B0)",
+            "B1": "((((((B4 or B0) and B7) or not B2) and not B5) and B3) and B6)",
+            "B8": "(((((((B6 or B5) and B4) and not B3) and not B1) or not B0) or B7) and B2)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B0": "True",
+            "B8": "not B0",
+            "B1": "(B8 and not B0)",
+            "B5": "(not B1 and B0)",
+            "B3": "((not B1 and not B0) or B5)",
+            "B7": "(not B5 or not B8)",
+            "B4": "(((((not B1 and not B3) or not B8) and B0) or not B5) and B7)",
+            "B6": "(((((B0 and B3) and not B7) or B5) and not B8) or B4)",
+            "B2": "not B3"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B6": "True",
+            "B2": "not B6",
+            "B8": "B6",
+            "B7": "((not B8 or not B6) and B2)",
+            "B1": "(B8 and B6)",
+            "B4": "(((not B7 and B6) and B2) and B8)",
+            "B0": "((((not B2 or not B8) or not B7) or B4) or not B6)",
+            "B3": "(((((not B6 and B1) and not B2) or B4) and not B0) and not B7)",
+            "B5": "((B2 or B8) or not B6)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B8": "True",
+            "B2": "not B8",
+            "B1": "not B8",
+            "B3": "B1",
+            "B4": "(((not B2 and B3) and not B1) and not B8)",
+            "B6": "(B1 or B4)",
+            "B5": "(((((B8 or not B1) or B6) and not B2) and not B3) and B4)",
+            "B7": "(((((B4 and not B5) and B6) and B2) or not B1) and B3)",
+            "B0": "B1"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B5": "True",
+            "B4": "B5",
+            "B3": "B4",
+            "B2": "((not B4 or not B3) and B5)",
+            "B6": "not B5",
+            "B7": "((not B4 or not B6) and B5)",
+            "B0": "(((((not B2 and B3) or B4) and not B7) or not B6) or B5)",
+            "B1": "((B6 or B3) or B4)",
+            "B8": "(((not B4 and B7) and not B0) and B5)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B1": "True",
+            "B0": "B1",
+            "B4": "(not B0 and B1)",
+            "B7": "((not B1 or B0) and B4)",
+            "B3": "(((not B0 and B7) or B1) and not B4)",
+            "B8": "(((not B3 or B1) or B7) or B4)",
+            "B5": "(((((not B1 or B7) and B4) or not B0) or not B8) and B3)",
+            "B2": "(((B0 and B1) and not B3) and not B8)",
+            "B6": "(((((B2 and not B4) or not B5) or B0) and not B3) and not B7)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B0": "True",
+            "B5": "not B0",
+            "B2": "(not B5 and not B0)",
+            "B1": "((not B0 and B2) and B5)",
+            "B4": "((B2 or B1) or not B0)",
+            "B8": "((B5 or B2) and not B1)",
+            "B3": "((not B4 and B2) or B0)",
+            "B7": "(((((not B1 or not B4) or B2) and not B8) and not B3) and not B0)",
+            "B6": "(((((not B2 and not B4) and B0) and not B7) and not B3) or not B5)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B6": "True",
+            "B0": "not B6",
+            "B5": "not B0",
+            "B2": "((not B0 or not B6) and not B5)",
+            "B3": "((not B5 or not B2) and B0)",
+            "B8": "((((not B5 and B3) and B0) or B2) or B6)",
+            "B4": "((((B5 or not B0) or B2) and B6) and B3)",
+            "B1": "not B8",
+            "B7": "(((((((not B3 and B5) and B4) or not B0) and not B8) or B6) or B2) and not B1)"
+        }
+    },
+    {
+        "level": 9,
+        "custom_logic": {
+            "B7": "True",
+            "B6": "not B7",
+            "B8": "B7",
+            "B5": "not B6",
+            "B0": "(B6 or not B5)",
+            "B3": "((((not B7 and not B6) or not B0) and not B5) and B8)",
+            "B2": "((((not B6 and B3) or not B5) or not B7) and not B8)",
+            "B1": "B6",
+            "B4": "(((((((B6 or not B2) or B3) and not B1) and B5) and not B7) or B0) or not B8)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B4": "True",
+            "B0": "not B4",
+            "B9": "(B0 and not B4)",
+            "B8": "B4",
+            "B2": "((B0 and not B9) or not B8)",
+            "B5": "(not B2 and B8)",
+            "B3": "(((not B4 or B0) and not B8) and B5)",
+            "B1": "(((not B2 or B8) and B5) and not B0)",
+            "B7": "(((B1 or B9) and B3) or B0)",
+            "B6": "((B7 and B8) and not B4)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B2": "True",
+            "B8": "not B2",
+            "B7": "(B2 and not B8)",
+            "B5": "not B2",
+            "B6": "not B2",
+            "B3": "((B5 and B8) and not B2)",
+            "B1": "(((((not B6 or B7) or not B5) or B8) and not B3) or B2)",
+            "B9": "not B2",
+            "B4": "(((((((B5 or not B7) or B8) or B6) and not B3) or not B1) and B9) and B2)",
+            "B0": "not B4"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B2": "True",
+            "B4": "not B2",
+            "B1": "B2",
+            "B9": "((not B2 or not B4) and B1)",
+            "B8": "(not B9 and not B1)",
+            "B7": "(((B1 and not B4) or not B8) or not B9)",
+            "B3": "(((B8 and not B4) and not B7) and not B2)",
+            "B0": "((not B4 and not B1) or not B7)",
+            "B6": "((((B3 or not B4) and B1) or not B9) and B0)",
+            "B5": "((not B4 or not B1) and B7)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B7": "True",
+            "B0": "B7",
+            "B3": "not B0",
+            "B6": "(B7 or not B0)",
+            "B8": "(((not B7 and B3) or not B6) and B0)",
+            "B5": "((((B3 or not B6) and B7) or B0) and not B8)",
+            "B4": "((((not B3 and not B5) or not B7) and B0) and not B8)",
+            "B1": "not B6",
+            "B2": "(((((((B5 or not B0) and not B3) or not B8) and B6) and B4) or B7) and not B1)",
+            "B9": "(B1 or B7)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B1": "True",
+            "B4": "B1",
+            "B7": "(not B4 or not B1)",
+            "B0": "(not B1 or B4)",
+            "B8": "(((not B4 and B1) and B7) or B0)",
+            "B6": "((((not B8 and not B4) and B1) and not B0) and B7)",
+            "B9": "B6",
+            "B3": "((((((B9 or not B6) or B0) or not B1) and not B4) and B8) and B7)",
+            "B5": "(((((B3 and not B1) and B9) and not B8) or B0) and B4)",
+            "B2": "((((((B3 and not B9) and not B7) and B1) or not B0) or B5) or B4)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B9": "True",
+            "B5": "B9",
+            "B2": "not B5",
+            "B4": "not B9",
+            "B1": "(((B9 and B5) or B4) and B2)",
+            "B3": "(not B2 or not B9)",
+            "B7": "(((B4 or not B2) or B9) and B5)",
+            "B0": "(((B1 or B3) and not B5) or B2)",
+            "B6": "((B5 and not B9) or not B0)",
+            "B8": "(((B3 or B0) and not B9) and B6)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B1": "True",
+            "B9": "B1",
+            "B5": "B1",
+            "B7": "not B9",
+            "B0": "not B5",
+            "B3": "(((not B0 and B7) or B5) and B9)",
+            "B8": "(((not B9 or B5) or B1) and B7)",
+            "B2": "((((((not B1 or not B9) and not B7) and B3) and B5) and B8) and not B0)",
+            "B6": "(((((((B3 and B2) or not B7) or not B8) or B9) or B1) or B5) and not B0)",
+            "B4": "((((not B1 or not B0) and B5) and not B2) and not B9)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B5": "True",
+            "B3": "not B5",
+            "B7": "(B3 and not B5)",
+            "B4": "not B5",
+            "B1": "(B7 or not B3)",
+            "B0": "(B5 and not B4)",
+            "B8": "((B5 or not B0) and not B4)",
+            "B6": "(not B1 and not B7)",
+            "B9": "(((((not B6 and not B1) or B7) or B5) and B4) and B8)",
+            "B2": "(B5 and not B6)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B9": "True",
+            "B7": "B9",
+            "B2": "B7",
+            "B3": "((B2 or B9) or B7)",
+            "B0": "not B7",
+            "B4": "(((B3 and B7) or not B9) and not B2)",
+            "B8": "(not B4 or B2)",
+            "B1": "((((((not B4 and not B3) and B2) or not B9) and B7) and B8) and B0)",
+            "B5": "(B1 and not B4)",
+            "B6": "((((((B2 and not B8) or B9) or B5) and B4) and B1) or not B0)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B5": "True",
+            "B4": "not B5",
+            "B6": "(B4 or B5)",
+            "B2": "not B6",
+            "B1": "(((not B6 and B4) or not B5) and B2)",
+            "B8": "((not B5 and not B1) and B6)",
+            "B3": "(((((not B6 and not B1) or B5) and B4) or B8) or B2)",
+            "B9": "(not B3 and B6)",
+            "B0": "(not B9 and not B4)",
+            "B7": "B8"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B6": "True",
+            "B4": "B6",
+            "B2": "(B4 or not B6)",
+            "B0": "((B4 and B6) or not B2)",
+            "B5": "(((not B6 and B0) and B2) or B4)",
+            "B1": "((((not B6 or not B5) or B0) and B4) or B2)",
+            "B8": "B5",
+            "B7": "(((not B8 or not B6) and B0) or B2)",
+            "B9": "((((not B7 and not B2) and B6) and not B5) or not B4)",
+            "B3": "not B7"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B1": "True",
+            "B7": "B1",
+            "B0": "(B1 and B7)",
+            "B2": "B7",
+            "B3": "((not B1 and not B0) and B7)",
+            "B5": "(((B7 or not B2) or B1) and B0)",
+            "B8": "((not B5 and not B1) and not B3)",
+            "B6": "((((((B0 and not B7) or B3) or B5) or not B2) or not B1) and not B8)",
+            "B4": "((((((not B7 or not B0) or not B5) or B1) and not B2) and not B6) and not B8)",
+            "B9": "(((((((B1 or not B8) and not B0) or B6) or not B2) or B5) or B4) or not B7)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B7": "True",
+            "B6": "not B7",
+            "B9": "(not B6 and B7)",
+            "B8": "((not B7 and B6) or B9)",
+            "B0": "(not B8 and not B7)",
+            "B2": "((not B0 and B9) or not B7)",
+            "B3": "((not B2 and B6) and not B9)",
+            "B1": "B6",
+            "B4": "not B8",
+            "B5": "(B2 and not B0)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B2": "True",
+            "B3": "B2",
+            "B1": "B3",
+            "B4": "not B1",
+            "B9": "(((B4 or not B1) and not B2) or not B3)",
+            "B7": "(((B2 or not B1) or not B3) or B9)",
+            "B6": "(((B4 and B1) and not B3) or not B2)",
+            "B8": "((not B2 and B6) or B1)",
+            "B5": "(((((((not B6 or not B3) and B8) or B4) or B2) and B7) or B1) and not B9)",
+            "B0": "(not B3 and B9)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B7": "True",
+            "B9": "not B7",
+            "B8": "B7",
+            "B6": "(not B7 or not B8)",
+            "B4": "(not B9 and not B7)",
+            "B2": "(B6 or not B4)",
+            "B0": "(B9 and B6)",
+            "B1": "(B0 and B9)",
+            "B5": "((((B4 or not B1) or B7) and B9) or not B6)",
+            "B3": "(((B8 or B4) and not B1) or not B9)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B2": "True",
+            "B4": "not B2",
+            "B0": "not B4",
+            "B6": "((not B2 and B4) or not B0)",
+            "B8": "not B4",
+            "B1": "(not B8 or B6)",
+            "B5": "((((not B8 or not B0) or B2) or not B6) or not B4)",
+            "B3": "(((((B2 or not B4) and not B8) and not B5) and B6) and not B1)",
+            "B7": "((((((not B5 and B0) or not B1) and not B8) or B6) and not B2) or not B4)",
+            "B9": "((((((B6 and not B8) or not B7) and not B5) or not B4) and B2) and B1)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B4": "True",
+            "B1": "not B4",
+            "B9": "(B1 and not B4)",
+            "B2": "(B9 or not B1)",
+            "B5": "B1",
+            "B7": "((((B5 and not B9) and not B2) or not B1) or not B4)",
+            "B6": "(B5 and not B1)",
+            "B8": "((((((not B6 or B2) and B5) and B4) and not B9) or not B1) or B7)",
+            "B3": "(((not B5 or B9) or not B2) and not B8)",
+            "B0": "((B5 and B2) and B7)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B6": "True",
+            "B3": "not B6",
+            "B5": "(not B3 or B6)",
+            "B2": "(B3 and not B5)",
+            "B1": "((not B5 or not B2) and not B6)",
+            "B0": "((not B2 and B3) or not B1)",
+            "B7": "(B5 or not B3)",
+            "B9": "((B2 and not B6) and not B7)",
+            "B4": "(((not B9 or B3) or B5) or B7)",
+            "B8": "(not B6 and B3)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B7": "True",
+            "B6": "not B7",
+            "B9": "(not B7 and B6)",
+            "B0": "((B9 and B7) and B6)",
+            "B4": "B0",
+            "B2": "not B7",
+            "B8": "(((((not B4 and B7) or B6) and B9) or not B2) or not B0)",
+            "B5": "((B4 and not B2) or not B0)",
+            "B3": "(((B4 and B5) or not B9) and B6)",
+            "B1": "(((((((not B4 or not B3) or B7) or not B9) or not B5) and not B0) and not B8) and B6)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B1": "True",
+            "B6": "not B1",
+            "B8": "B6",
+            "B0": "((B1 and B8) or B6)",
+            "B7": "(((not B0 and B6) or not B1) and B8)",
+            "B3": "((((B7 and B0) and B1) and not B6) and B8)",
+            "B9": "not B1",
+            "B4": "(((((B6 and B1) or not B7) and B0) and B8) or not B9)",
+            "B5": "(((B9 or not B1) and not B3) or not B6)",
+            "B2": "(((B4 and B1) or B3) and not B7)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B5": "True",
+            "B1": "B5",
+            "B8": "not B5",
+            "B6": "((B8 or not B1) and not B5)",
+            "B3": "((B6 and not B5) and B8)",
+            "B2": "((((not B3 or not B1) and not B8) and B5) and B6)",
+            "B9": "not B1",
+            "B4": "B5",
+            "B0": "((((((not B3 and not B8) or not B6) or B5) or not B1) and not B4) and not B9)",
+            "B7": "((((B1 and not B3) or B6) or B8) or not B0)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B7": "True",
+            "B5": "not B7",
+            "B9": "not B5",
+            "B2": "(B9 and B5)",
+            "B6": "((B9 and not B2) and B7)",
+            "B0": "not B5",
+            "B3": "(((((B5 and not B6) and not B7) or not B0) or B2) and not B9)",
+            "B8": "not B9",
+            "B1": "((((((not B9 or not B8) and B5) or not B3) or not B2) and B6) and not B7)",
+            "B4": "(((not B2 and B5) and B7) and B0)"
+        }
+    },
+    {
+        "level": 10,
+        "custom_logic": {
+            "B4": "True",
+            "B2": "not B4",
+            "B9": "(not B4 and B2)",
+            "B0": "((not B2 or not B9) and not B4)",
+            "B6": "(((B2 or B4) or not B9) and not B0)",
+            "B1": "(((B6 and not B4) and not B2) and B0)",
+            "B3": "(((((not B2 and not B1) or not B6) and not B4) or not B0) and not B9)",
+            "B7": "((((((B6 and B3) and not B2) and B1) or not B9) or not B0) or B4)",
+            "B5": "((B2 or not B1) or B0)",
+            "B8": "(not B6 and B4)"
+        }
+    }
+]
