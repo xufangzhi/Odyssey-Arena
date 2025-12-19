@@ -1,6 +1,13 @@
-# Odyssey-Arena
+# 🏁 Odyssey-Arena
 Extremely Long-Horizon Agentic Tasks Requiring Active Acting and Inductive Reasoning
 
+
+## 🌍 Environments (What Should Agents Do)
+
+- **TurnOnLights (LightEnv)**: toggle bulbs to turn all bulbs on, under hidden dependency rules between bulbs.
+- **AI Trading (TradeEnv)**: trade multiple stocks over time to maximize final portfolio value under market dynamics and constraints.
+- **Energy Grid (EnergyEnv)**: schedule generation/storage each day to meet energy demand and daily budget while maintaining grid stability and reducing carbon over a long horizon.
+- **Computer-using / Repo Setup (RepoEnv)**: act like a developer to fix a broken Python repo by running terminal commands (e.g., pip install/uninstall, run scripts) until `python run.py` succeeds.
 
 ## 🚀 How to Run
 
@@ -35,21 +42,25 @@ python xxxEnv/infer_xxx.py \
 Examples:
 
 ```bash
-python EnergyEnv/infer_multi_turn_energy.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
-python EnergyEnv/infer_multi_turn_energy_with_rules.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
-
+# TurnOnLights Environment
 python LightEnv/infer_multi_turn_lights.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 python LightEnv/infer_multi_turn_lights_with_rules.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 
+# AI Trading Environment
 python TradeEnv/infer_multi_turn_trade.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 python TradeEnv/infer_multi_turn_trade_with_rules.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 
+# Energy Environment
+python EnergyEnv/infer_multi_turn_energy.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
+python EnergyEnv/infer_multi_turn_energy_with_rules.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
+
+# Computer-using Environment
 python RepoEnv/infer_multi_turn_repo.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 python RepoEnv/infer_multi_turn_repo_with_rules.py --policy_dir <path_to_model> --save_file <path_to_output_file> --n_gpus 8
 ```
 
 
-### 🏁 Run the Whole Odyssey-Arena Benchmark
+### Run the Whole Odyssey-Arena Benchmark
 ```bash
 bash run_odyssey_arena.sh
 ```
