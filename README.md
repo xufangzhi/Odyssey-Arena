@@ -16,7 +16,7 @@ We provide two versions of datasets for each environment:
 - **Pro**: 200 samples per environment
 
 | Env | # Samples (Lite) | # Samples (Pro) | Max Turns |
-|---|---:|---:|---:|
+|---|:---:|:---:|:---:|
 | TurnOnLights (`LightEnv`) | 30 | 200 | 200 |
 | AI Trading (`TradeEnv`) | 30 | 200 | 120 |
 | Energy Grid (`EnergyEnv`) | 30 | 200 | 120 |
