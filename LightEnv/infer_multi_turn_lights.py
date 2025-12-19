@@ -26,13 +26,13 @@ n_gpus = min(args.n_gpus, len(visible_gpus)) if len(visible_gpus) > 0 else args.
 policy_model = LLM(
     model=policy_dir,
     tensor_parallel_size=n_gpus,
-    max_model_len=8192*4,
+    max_model_len=8192*8,
     trust_remote_code=True,
     gpu_memory_utilization=0.8,
 )
 policy_tokenizer = AutoTokenizer.from_pretrained(policy_dir, trust_remote_code=True)
 sampling_params = SamplingParams(
-    max_tokens=4096*2,
+    max_tokens=4096*4,
     logprobs=1,
     temperature=0.6,
     stop=["</action>", "</finish>"],
