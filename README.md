@@ -1,6 +1,21 @@
-# 🏁 Odyssey-Arena
-Extremely Long-Horizon Agentic Tasks Requiring Active Acting and Inductive Reasoning
+<h1 align="center">
+🏁 Odyssey-Arena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions
+</h1>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2507.14958"><b>[📜 Paper]</b></a> •
+  <a href="https://github.com/xufangzhi/Odyssey-Arena/"><b>[🐱 GitHub]</b></a>
+  <a href="https://yayayacc.github.io/Odyssey-Home/"><b>[🏆 Leaderboard]</b></a>
+  <a href="https://huggingface.co/spaces/beatccjiang/OdysseyArena/"><b>[🌍 Space]</b></a>
+  
+</p>
+
+<!-- <p align="center"> Repo for "MUR: Momentum Uncertainty Guided Reasoning For Large Language Models</a>"</p>
+<a href="https://arxiv.org/abs/2507.14958" target="_blank"> -->
+
+## 🔥 News
+
+- [2026/02] 🔥🔥🔥 OdysseyArena is released !!!
 
 ## 🌍 Environments (What Should Agents Do)
 
