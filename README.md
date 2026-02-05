@@ -1,5 +1,5 @@
 <h1 align="center">
-🏁 Odyssey-Arena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions
+🏁 OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions
 </h1>
 
 <p align="center">
