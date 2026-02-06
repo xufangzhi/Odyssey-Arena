@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2507.14958"><b>[📜 Paper]</b></a> •
+  <a href="https://arxiv.org/abs/2602.05843"><b>[📜 Paper]</b></a> •
   <a href="https://github.com/xufangzhi/Odyssey-Arena/"><b>[🐱 GitHub]</b></a>
   <a href="https://yayayacc.github.io/Odyssey-Home/"><b>[🏆 Leaderboard]</b></a>
   <a href="https://huggingface.co/spaces/beatccjiang/OdysseyArena/"><b>[🌍 Space]</b></a>
@@ -103,9 +103,9 @@ If you find it helpful, please kindly cite our paper:
 
 ```
 @article{xu2025odyssey,
-  title={Odyssey-Arena: xxx},
-  author={Xu, Fangzhi},
-  journal={arXiv preprint arXiv:2601.xxxxx},
+  title={OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions},
+  author={Xu, Fangzhi and Yan, Hang and Sun, Qiushi and Wu, Jingyang and Huang, Zixian and Huang, Muye and Gong, Jingyang and Ding, Zichen and Cheng, Kanzhi and Wang, Yian and Che, Xinyu and Sun, Zeyi and Zhang, Jian and Yin, Zhangyue and Luo, Haoran and Huang, Xuanjing and Ben Kao and Liu, Jun and Lin, Qika},
+  journal={arXiv preprint arXiv:2602.05843},
   year={2025}
 }
 ```
