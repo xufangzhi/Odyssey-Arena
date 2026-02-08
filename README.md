@@ -39,6 +39,164 @@ We provide two versions of datasets for each environment:
 | Computer-using / Repo Setup (`RepoEnv`) | 30 | 200 | 120 |
 | **Odyssey-Arena (Total)** | **120** | **800** | **120-200** |
 
+## Leaderboard of OdysseyArena-Lite
+
+<p>
+You can also refer to the 🏆<a href="https://yayayacc.github.io/Odyssey-Home/"><b>Leaderboard</b></a> for more details.
+</p>
+
+<table>
+<thead>
+<tr>
+<th rowspan="2">Model</th>
+<th colspan="2">Turn On Lights</th>
+<th colspan="2">AI Trading</th>
+<th colspan="2">Energy Dispatch</th>
+<th colspan="2">Repo System</th>
+</tr>
+
+<tr>
+<th>Avg@4</th><th>Pass@4</th>
+<th>Avg@4</th><th>Pass@4</th>
+<th>Avg@4</th><th>Pass@4</th>
+<th>Avg@4</th><th>Pass@4</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Human</td>
+<td>81.67</td><td>100.00</td>
+<td>+92.55%</td><td>+197.23%</td>
+<td>25.00</td><td>60.00</td>
+<td>77.50</td><td>100.00</td>
+</tr>
+
+<tr style="background-color:#E6F4F1;">
+<td>Gemini 3 Pro Preview</td>
+<td><b>44.17</b></td><td><b>76.67</b></td>
+<td><b>+67.71%</b></td><td><b>+76.94%</b></td>
+<td><b>30.00</b></td><td>36.67</td>
+<td><b>65.83</b></td><td>80.00</td>
+</tr>
+
+<tr style="background-color:#E6F4F1;">
+<td>GPT-5</td>
+<td>28.33</td><td>40.00</td>
+<td>+17.32%</td><td>+20.47%</td>
+<td>23.33</td><td><b>40.00</b></td>
+<td>62.50</td><td><b>83.33</b></td>
+</tr>
+
+<tr style="background-color:#E6F4F1;">
+<td>Gemini 2.5 Pro</td>
+<td>29.17</td><td>50.00</td>
+<td>+33.02%</td><td>+40.12%</td>
+<td>10.83</td><td>26.67</td>
+<td>50.00</td><td>66.67</td>
+</tr>
+
+<tr>
+<td>gpt-oss-120b (high)</td>
+<td>27.50</td><td>40.00</td>
+<td>+23.27%</td><td>+27.47%</td>
+<td>0.00</td><td>0.00</td>
+<td>18.33</td><td>33.33</td>
+</tr>
+
+<tr>
+<td>DeepSeek-V3.2</td>
+<td>18.33</td><td>36.67</td>
+<td>+8.62%</td><td>+12.88%</td>
+<td>0.00</td><td>0.00</td>
+<td>48.33</td><td>76.67</td>
+</tr>
+
+<tr style="background-color:#E6F4F1;">
+<td>Grok 4 Fast</td>
+<td>14.17</td><td>40.00</td>
+<td>+5.70%</td><td>+11.52%</td>
+<td>0.00</td><td>0.00</td>
+<td>38.33</td><td>60.00</td>
+</tr>
+
+<tr>
+<td>Qwen3-235B-A22B-Instruct</td>
+<td>15.00</td><td>43.33</td>
+<td>+11.26%</td><td>+17.67%</td>
+<td>0.00</td><td>0.00</td>
+<td>15.83</td><td>36.67</td>
+</tr>
+
+<tr>
+<td>Qwen3-30B-A3B-Instruct</td>
+<td>11.67</td><td>26.67</td>
+<td>+4.76%</td><td>+8.94%</td>
+<td>0.00</td><td>0.00</td>
+<td>26.67</td><td>50.00</td>
+</tr>
+
+<tr>
+<td>gpt-oss-120b (medium)</td>
+<td>16.67</td><td>40.00</td>
+<td>+3.21%</td><td>+7.09%</td>
+<td>0.00</td><td>0.00</td>
+<td>2.50</td><td>6.67</td>
+</tr>
+
+<tr>
+<td>GLM-4-32B-0414</td>
+<td>14.17</td><td>33.33</td>
+<td>+3.14%</td><td>+7.24%</td>
+<td>0.00</td><td>0.00</td>
+<td>9.17</td><td>30.00</td>
+</tr>
+
+<tr>
+<td>gpt-oss-120b (low)</td>
+<td>7.50</td><td>13.33</td>
+<td>+2.02%</td><td>+5.70%</td>
+<td>0.00</td><td>0.00</td>
+<td>9.17</td><td>26.67</td>
+</tr>
+
+<tr>
+<td>Llama 3.3 70B Instruct</td>
+<td>6.67</td><td>16.67</td>
+<td>+0.77%</td><td>+2.01%</td>
+<td>0.00</td><td>0.00</td>
+<td>19.17</td><td>40.00</td>
+</tr>
+
+<tr>
+<td>Qwen3-4B-Instruct</td>
+<td>0.00</td><td>0.00</td>
+<td>+1.67%</td><td>+6.95%</td>
+<td>0.00</td><td>0.00</td>
+<td>13.33</td><td>26.67</td>
+</tr>
+
+<tr>
+<td>Llama 3.1 8B Instruct</td>
+<td>6.67</td><td>20.00</td>
+<td>+0.55%</td><td>+3.07%</td>
+<td>0.00</td><td>0.00</td>
+<td>0.00</td><td>0.00</td>
+</tr>
+
+<tr>
+<td>GLM-4-9B-Chat</td>
+<td>0.00</td><td>0.00</td>
+<td>-0.18%</td><td>+0.41%</td>
+<td>0.00</td><td>0.00</td>
+<td>0.00</td><td>0.00</td>
+</tr>
+
+</tbody>
+</table>
+
+
 ## 🚀 How to Run
 
 ### Environment Setup
