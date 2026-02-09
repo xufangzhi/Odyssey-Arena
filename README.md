@@ -29,20 +29,12 @@
 
 We provide two versions of datasets for each environment:
 - **Lite**: 30 samples per environment (Recommended)
-- **Pro**: 200 samples per environment
+- **Challenge**: 10 samples per env. (extremelly long-horizon and challenging)
 
-| Env | # Samples (Lite) | # Samples (Pro) | Max Turns |
-|---|:---:|:---:|:---:|
-| TurnOnLights (`LightEnv`) | 30 | 200 | 200 |
-| AI Trading (`TradeEnv`) | 30 | 200 | 120 |
-| Energy Grid (`EnergyEnv`) | 30 | 200 | 120 |
-| Computer-using / Repo Setup (`RepoEnv`) | 30 | 200 | 120 |
-| **Odyssey-Arena (Total)** | **120** | **800** | **120-200** |
-
-## Leaderboard of OdysseyArena-Lite
+## 🏆 Leaderboard of OdysseyArena-Lite
 
 <p>
-You can also refer to the 🏆<a href="https://yayayacc.github.io/Odyssey-Home/"><b>Leaderboard</b></a> for more details.
+You can also refer to the <a href="https://yayayacc.github.io/Odyssey-Home/"><b>Leaderboard</b></a> for more details.
 </p>
 
 <table>
