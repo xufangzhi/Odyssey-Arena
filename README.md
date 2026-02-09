@@ -20,10 +20,10 @@
 
 ## 🌍 Environments (What Should Agents Do)
 
-- **TurnOnLights (LightEnv)**: toggle bulbs to turn all bulbs on, under hidden dependency rules between bulbs.
+- **Turn On Lights (LightEnv)**: toggle bulbs to turn all bulbs on, under hidden dependency rules between bulbs.
 - **AI Trading (TradeEnv)**: trade multiple stocks over time to maximize final portfolio value under market dynamics and constraints.
-- **Energy Grid (EnergyEnv)**: schedule generation/storage each day to meet energy demand and daily budget while maintaining grid stability and reducing carbon over a long horizon.
-- **Computer-using / Repo Setup (RepoEnv)**: act like a developer to fix a broken Python repo by running terminal commands (e.g., pip install/uninstall, run scripts) until `python run.py` succeeds.
+- **Energy Dispatch (EnergyEnv)**: schedule generation/storage each day to meet energy demand and daily budget while maintaining grid stability and reducing carbon over a long horizon.
+- **Repo System (RepoEnv)**: act like a developer to fix a broken Python repo by running terminal commands (e.g., pip install/uninstall, run scripts) until `python run.py` succeeds.
 
 ### 📊 Benchmark Stats
 
